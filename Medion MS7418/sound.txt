@@ -1,0 +1,58 @@
+/sys/class/sound/card0/device/:
+-r--r--r--    1 root     root          4096 Mar 11 10:36 ari_enabled
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 broken_parity_status
+-r--r--r--    1 root     root          4096 Mar 11 10:36 class
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 config
+-r--r--r--    1 root     root          4096 Mar 11 10:36 consistent_dma_mask_bits
+-r--r--r--    1 root     root          4096 Mar 11 10:36 current_link_speed
+-r--r--r--    1 root     root          4096 Mar 11 10:36 current_link_width
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 d3cold_allowed
+-r--r--r--    1 root     root          4096 Mar 11 10:36 device
+-r--r--r--    1 root     root          4096 Mar 11 10:36 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Mar 11 12:20 driver -> ../../../bus/pci/drivers/snd_hda_intel
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 driver_override
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 enable
+drwxr-xr-x    4 root     root             0 Mar 11 10:36 hdaudioC0D0
+-r--r--r--    1 root     root          4096 Mar 11 10:36 irq
+-r--r--r--    1 root     root          4096 Mar 11 10:36 local_cpulist
+-r--r--r--    1 root     root          4096 Mar 11 10:36 local_cpus
+-r--r--r--    1 root     root          4096 Mar 11 10:36 max_link_speed
+-r--r--r--    1 root     root          4096 Mar 11 10:36 max_link_width
+-r--r--r--    1 root     root          4096 Mar 11 10:36 modalias
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 msi_bus
+drwxr-xr-x    2 root     root             0 Mar 11 10:36 power
+-r--r--r--    1 root     root          4096 Mar 11 10:36 power_state
+--w--w----    1 root     root          4096 Mar 11 10:36 remove
+--w-------    1 root     root          4096 Mar 11 10:36 rescan
+--w-------    1 root     root          4096 Mar 11 10:36 reset
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 reset_method
+-r--r--r--    1 root     root          4096 Mar 11 10:36 resource
+-rw-------    1 root     root         16384 Mar 11 10:36 resource0
+-r--r--r--    1 root     root          4096 Mar 11 10:36 revision
+drwxr-xr-x    3 root     root             0 Mar 11 10:36 sound
+lrwxrwxrwx    1 root     root             0 Mar 11 10:36 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Mar 11 10:36 subsystem_device
+-r--r--r--    1 root     root          4096 Mar 11 10:36 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 uevent
+-r--r--r--    1 root     root          4096 Mar 11 10:36 vendor
+
+/sys/class/sound/card1/device/:
+-rw-r--r--    1 root     root          4096 Mar 11 12:20 authorized
+-r--r--r--    1 root     root          4096 Mar 11 12:20 bAlternateSetting
+-r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceClass
+-r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceNumber
+-r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceProtocol
+-r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceSubClass
+-r--r--r--    1 root     root          4096 Mar 11 12:20 bNumEndpoints
+lrwxrwxrwx    1 root     root             0 Mar 11 12:20 driver -> ../../../../../../bus/usb/drivers/snd-usb-audio
+-r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFirstInterface
+-r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFunctionClass
+-r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFunctionProtocol
+-r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFunctionSubClass
+-r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bInterfaceCount
+-r--r--r--    1 root     root          4096 Mar 11 12:20 modalias
+drwxr-xr-x    2 root     root             0 Mar 11 12:20 power
+drwxr-xr-x    3 root     root             0 Mar 11 10:36 sound
+lrwxrwxrwx    1 root     root             0 Mar 11 12:20 subsystem -> ../../../../../../bus/usb
+-r--r--r--    1 root     root          4096 Mar 11 12:20 supports_autosuspend
+-rw-r--r--    1 root     root          4096 Mar 11 10:36 uevent

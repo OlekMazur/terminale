@@ -1,0 +1,68 @@
+Module                  Size  Used by    Not tainted
+crc32c_generic         16384  2 
+ext4                  270336  1 
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                   49152  1 ext4
+xt_MASQUERADE          16384  1 
+xt_state               16384  2 
+nf_log_ipv4            16384  5 
+nf_log_common          16384  1 nf_log_ipv4
+xt_LOG                 16384  5 
+evdev                  20480  4 
+xt_limit               16384  6 
+sd_mod                 28672  1 
+processor              24576  1 
+8250                   16384  0 
+8250_base              24576  1 8250
+serial_core            24576  2 8250,8250_base
+atkbd                  20480  0 
+button                 16384  0 
+pcspkr                 16384  0 
+pata_via               16384  1 
+libata                122880  1 pata_via
+scsi_mod               65536  2 sd_mod,libata
+af_packet              32768  0 
+xt_tcpudp              16384  5 
+iptable_nat            16384  1 
+nf_nat                 20480  2 xt_MASQUERADE,iptable_nat
+nf_conntrack           45056  3 xt_MASQUERADE,xt_state,nf_nat
+nf_defrag_ipv4         16384  1 nf_conntrack
+snd_via82xx            20480  0 
+iptable_filter         16384  1 
+snd_mpu401_uart        16384  1 snd_via82xx
+snd_rawmidi            20480  1 snd_mpu401_uart
+ip_tables              20480  2 iptable_nat,iptable_filter
+snd_ac97_codec         69632  1 snd_via82xx
+ac97_bus               16384  1 snd_ac97_codec
+x_tables               20480  7 xt_MASQUERADE,xt_state,xt_LOG,xt_limit,xt_tcpudp,iptable_filter,ip_tables
+snd_pcm                53248  2 snd_via82xx,snd_ac97_codec
+snd_timer              24576  1 snd_pcm
+snd                    28672  6 snd_via82xx,snd_mpu401_uart,snd_rawmidi,snd_ac97_codec,snd_pcm,snd_timer
+soundcore              16384  1 snd
+i2c_viapro             16384  0 
+via_rhine              24576  0 
+mii                    16384  1 via_rhine
+ohci_hcd               24576  0 
+uhci_hcd               24576  0 
+eeprom                 16384  0 
+lm85                   24576  0 
+smsc47m192             16384  0 
+w83781d                20480  0 
+i2c_core               28672  5 i2c_viapro,eeprom,lm85,smsc47m192,w83781d
+hwmon_vid              16384  3 lm85,smsc47m192,w83781d
+vt8231                 16384  0 
+via686a                16384  0 
+hwmon                  16384  5 lm85,smsc47m192,w83781d,vt8231,via686a
+ehci_pci               16384  0 
+ehci_hcd               40960  1 ehci_pci
+usbcore               126976  4 ohci_hcd,uhci_hcd,ehci_pci,ehci_hcd
+usb_common             16384  1 usbcore
+rtc_cmos               16384  1 
+mq_deadline            16384  1 
+softdog                16384  3 
+bridge                 69632  0 
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+unix                   24576 21 
+sch_fq_codel           20480  2 

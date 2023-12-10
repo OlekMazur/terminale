@@ -1,0 +1,30 @@
+drwxr-xr-x    3 root     root             0 Nov 12 22:24 0-0:VIA1612A
+-r--r--r--    1 root     root          4096 Nov 12 22:24 ari_enabled
+-rw-r--r--    1 root     root          4096 Nov 12 22:24 broken_parity_status
+-r--r--r--    1 root     root          4096 Nov 12 22:24 class
+-rw-r--r--    1 root     root           256 Nov 12 22:24 config
+-r--r--r--    1 root     root          4096 Nov 12 22:24 consistent_dma_mask_bits
+-rw-r--r--    1 root     root          4096 Nov 12 22:24 d3cold_allowed
+-r--r--r--    1 root     root          4096 Nov 12 22:24 device
+-r--r--r--    1 root     root          4096 Nov 12 22:24 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Nov 12 23:17 driver -> ../../../bus/pci/drivers/snd_via82xx
+-rw-r--r--    1 root     root          4096 Nov 12 22:24 driver_override
+-rw-r--r--    1 root     root          4096 Nov 12 22:24 enable
+-r--r--r--    1 root     root          4096 Nov 12 22:24 irq
+-r--r--r--    1 root     root          4096 Nov 12 22:24 local_cpulist
+-r--r--r--    1 root     root          4096 Nov 12 22:24 local_cpus
+-r--r--r--    1 root     root          4096 Nov 12 22:24 modalias
+-rw-r--r--    1 root     root          4096 Nov 12 22:24 msi_bus
+drwxr-xr-x    2 root     root             0 Nov 12 22:24 power
+--w--w----    1 root     root          4096 Nov 12 22:24 remove
+--w--w----    1 root     root          4096 Nov 12 22:24 rescan
+--w-------    1 root     root          4096 Nov 12 22:24 reset
+-r--r--r--    1 root     root          4096 Nov 12 22:24 resource
+-rw-------    1 root     root           256 Nov 12 22:24 resource0
+-r--r--r--    1 root     root          4096 Nov 12 22:24 revision
+drwxr-xr-x    3 root     root             0 Nov 12 22:24 sound
+lrwxrwxrwx    1 root     root             0 Nov 12 22:24 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Nov 12 22:24 subsystem_device
+-r--r--r--    1 root     root          4096 Nov 12 22:24 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Nov 12 22:24 uevent
+-r--r--r--    1 root     root          4096 Nov 12 22:24 vendor

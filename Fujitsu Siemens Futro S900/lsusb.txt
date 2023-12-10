@@ -1,0 +1,8 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux 5.15.13 ehci_hcd EHCI Host Controller
+Bus 002 Device 001: ID 1d6b:0002 Linux 5.15.13 ehci_hcd EHCI Host Controller
+Bus 003 Device 001: ID 1d6b:0002 Linux 5.15.13 ehci_hcd EHCI Host Controller
+Bus 004 Device 001: ID 1d6b:0001 Linux 5.15.13 ohci_hcd OHCI PCI host controller
+Bus 005 Device 001: ID 1d6b:0001 Linux 5.15.13 ohci_hcd OHCI PCI host controller
+Bus 006 Device 001: ID 1d6b:0001 Linux 5.15.13 ohci_hcd OHCI PCI host controller
+Bus 007 Device 001: ID 1d6b:0001 Linux 5.15.13 ohci_hcd OHCI PCI host controller
+Bus 005 Device 003: ID 0bf8:1006 Fujitsu Siemens Computers SmartCard Reader USB 2A

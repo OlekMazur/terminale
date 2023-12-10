@@ -1,0 +1,409 @@
+Linux version 5.6.0 (olek@mocarz) (gcc version 9.2.0 (Buildroot 2019.11-git-00972-g74cfd2c0a0)) #13 Wed Apr 8 19:09:35 CEST 2020
+KERNEL supported cpus:
+Intel GenuineIntel
+AMD AuthenticAMD
+Centaur CentaurHauls
+Transmeta GenuineTMx86
+Transmeta TransmetaCPU
+x86/fpu: x87 FPU will use FXSAVE
+BIOS-provided physical RAM map:
+BIOS-e820: [mem 0x0000000000000000-0x000000000009f7ff] usable
+BIOS-e820: [mem 0x000000000009f800-0x000000000009ffff] reserved
+BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+BIOS-e820: [mem 0x0000000000100000-0x000000000eeeffff] usable
+BIOS-e820: [mem 0x000000000eef0000-0x000000000eef2fff] ACPI NVS
+BIOS-e820: [mem 0x000000000eef3000-0x000000000eefffff] ACPI data
+BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+BIOS-e820: [mem 0x00000000ffff0000-0x00000000ffffffff] reserved
+Notice: NX (Execute Disable) protection cannot be enabled: non-PAE kernel!
+SMBIOS 2.3 present.
+DMI:  /CN700-8237, BIOS 6.00 PG 11/11/2006
+tsc: Fast TSC calibration using PIT
+tsc: Detected 997.403 MHz processor
+e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+e820: remove [mem 0x000a0000-0x000fffff] usable
+last_pfn = 0xeef0 max_arch_pfn = 0x100000
+MTRR default type: uncachable
+MTRR fixed ranges enabled:
+00000-9FFFF write-back
+A0000-BFFFF uncachable
+C0000-C8FFF write-protect
+C9000-EFFFF uncachable
+F0000-F7FFF write-through
+F8000-F8FFF uncachable
+F9000-FFFFF write-through
+MTRR variable ranges enabled:
+0 base 000000000 mask FF0000000 write-back
+1 base 00F000000 mask FFF000000 uncachable
+2 base 0E8000000 mask FF8000000 write-combining
+3 base 00EF00000 mask FFFF00000 write-through
+4 disabled
+5 disabled
+6 disabled
+7 disabled
+x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+initial memory mapped: [mem 0x00000000-0x017fffff]
+BRK [0x011e5000, 0x011e5fff] PGTABLE
+ACPI: Early table checksum verification disabled
+ACPI: RSDP 0x00000000000F78B0 000014 (v00 P4M80P)
+ACPI: RSDT 0x000000000EEF3040 00002C (v01 P4M80P AWRDACPI 42302E31 AWRD 00000000)
+ACPI: FACP 0x000000000EEF30C0 000074 (v01 P4M80P AWRDACPI 42302E31 AWRD 00000000)
+ACPI: DSDT 0x000000000EEF3180 004EB3 (v01 P4M80P AWRDACPI 00001000 MSFT 0100000E)
+ACPI: FACS 0x000000000EEF0000 000040
+ACPI: APIC 0x000000000EEF8080 00005A (v01 P4M80P AWRDACPI 42302E31 AWRD 00000000)
+238MB LOWMEM available.
+mapped low ram: 0 - 0eef0000
+low ram: 0 - 0eef0000
+Zone ranges:
+DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Normal   [mem 0x0000000001000000-0x000000000eeeffff]
+Movable zone start for each node
+Early memory node ranges
+node   0: [mem 0x0000000000001000-0x000000000009efff]
+node   0: [mem 0x0000000000100000-0x000000000eeeffff]
+Initmem setup node 0 [mem 0x0000000000001000-0x000000000eeeffff]
+On node 0 totalpages: 61070
+DMA zone: 32 pages used for memmap
+DMA zone: 0 pages reserved
+DMA zone: 3998 pages, LIFO batch:0
+Normal zone: 446 pages used for memmap
+Normal zone: 57072 pages, LIFO batch:15
+ACPI: PM-Timer IO Port: 0x408
+[mem 0x0ef00000-0xfebfffff] available for PCI devices
+clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+pcpu-alloc: [0] 0 
+Built 1 zonelists, mobility grouping on.  Total pages: 60592
+Kernel command line: panic=30 consoleblank=0 printk.devkmsg=on ieee80211_regdom=PL tsc=unstable  
+tsc: Marking TSC unstable due to boot parameter
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes, linear)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes, linear)
+mem auto-init: stack:off, heap alloc:off, heap free:off
+Memory: 224732K/244280K available (2218K kernel code, 223K rwdata, 892K rodata, 12768K init, 1132K bss, 19548K reserved, 0K cma-reserved)
+virtual kernel memory layout:
+fixmap  : 0xfffe7000 - 0xfffff000   (  96 kB)
+cpu_entry : 0xffc00000 - 0xffc2c000   ( 176 kB)
+vmalloc : 0xcf6f0000 - 0xff7fe000   ( 769 MB)
+lowmem  : 0xc0000000 - 0xceef0000   ( 238 MB)
+.init : 0xc044b000 - 0xc10c3000   (12768 kB)
+.data : 0xc032aba3 - 0xc0441e60   (1116 kB)
+.text : 0xc0100000 - 0xc032aba3   (2218 kB)
+Checking if this processor honours the WP bit even in supervisor mode...Ok.
+NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Console: colour VGA+ 80x25
+printk: console [tty0] enabled
+ACPI: Core revision 20200110
+ACPI: setting ELCR to 0200 (from 0e20)
+Calibrating delay loop (skipped), value calculated using timer frequency.. 1994.80 BogoMIPS (lpj=9974030)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+CPU: Centaur VIA Esther processor 1000MHz (family: 0x6, model: 0xa, stepping: 0x9)
+Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Spectre V2 : Spectre mitigation: kernel not compiled with retpoline
+Speculative Store Bypass: Vulnerable
+L1TF: Kernel not compiled for PAE. No mitigation for L1TF
+MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Performance Events: no PMU driver, software events only.
+NMI watchdog: Perf NMI watchdog permanently disabled
+random: get_random_u32 called from bucket_table_alloc+0xc2/0xe1 with crng_init=0
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 256 (order: -1, 3072 bytes, linear)
+thermal_sys: Registered thermal governor 'step_wise'
+NET: Registered protocol family 16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+clocksource: pit: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1601818034827 ns
+ACPI: bus type PCI registered
+PCI: PCI BIOS revision 2.10 entry at 0xf9f20, last bus=1
+PCI: Using configuration type 1 for base access
+ACPI: Added _OSI(Module Device)
+ACPI: Added _OSI(Processor Device)
+ACPI: Added _OSI(3.0 _SCP Extensions)
+ACPI: Added _OSI(Processor Aggregator Device)
+ACPI: Added _OSI(Linux-Dell-Video)
+ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+ACPI: 1 ACPI AML tables successfully acquired and loaded
+ACPI: Interpreter enabled
+ACPI: (supports S0 S5)
+ACPI: Using PIC for interrupt routing
+PCI: Ignoring host bridge windows from ACPI
+ACPI: Enabled 7 GPEs in block 00 to 0F
+ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+acpi PNP0A03:00: _OSC: OS supports [Segments HPX-Type3]
+acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+acpi PNP0A03:00: host bridge window [io  0x0cf8-0x0cff] (ignored)
+acpi PNP0A03:00: host bridge window [io  0x0000-0x0cf7 window] (ignored)
+acpi PNP0A03:00: host bridge window [io  0x0d00-0xffff window] (ignored)
+acpi PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff window] (ignored)
+acpi PNP0A03:00: host bridge window [mem 0x000c0000-0x000dffff window] (ignored)
+acpi PNP0A03:00: host bridge window [mem 0x0ef00000-0xfebfffff window] (ignored)
+PCI: root bus 00: using default resources
+PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+pci_bus 0000:00: root bus resource [mem 0x00000000-0xffffffff]
+pci_bus 0000:00: root bus resource [bus 00-ff]
+pci 0000:00:00.0: [1106:0314] type 00 class 0x060000
+pci 0000:00:00.0: reg 0x10: [mem 0xe8000000-0xefffffff pref]
+pci 0000:00:00.1: [1106:1314] type 00 class 0x060000
+pci 0000:00:00.2: [1106:2314] type 00 class 0x060000
+pci 0000:00:00.3: [1106:3208] type 00 class 0x060000
+pci 0000:00:00.4: [1106:4314] type 00 class 0x060000
+pci 0000:00:00.7: [1106:7314] type 00 class 0x060000
+pci 0000:00:01.0: [1106:b198] type 01 class 0x060400
+pci 0000:00:01.0: supports D1
+pci 0000:00:0d.0: [10ec:8139] type 00 class 0x020000
+pci 0000:00:0d.0: reg 0x10: [io  0xf800-0xf8ff]
+pci 0000:00:0d.0: reg 0x14: [mem 0xfdfff000-0xfdfff0ff]
+pci 0000:00:0d.0: supports D1 D2
+pci 0000:00:0d.0: PME# supported from D1 D2 D3hot D3cold
+pci 0000:00:0f.0: [1106:0571] type 00 class 0x01018a
+pci 0000:00:0f.0: reg 0x20: [io  0xff00-0xff0f]
+pci 0000:00:0f.0: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+pci 0000:00:0f.0: legacy IDE quirk: reg 0x14: [io  0x03f6]
+pci 0000:00:0f.0: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+pci 0000:00:0f.0: legacy IDE quirk: reg 0x1c: [io  0x0376]
+pci 0000:00:10.0: [1106:3038] type 00 class 0x0c0300
+pci 0000:00:10.0: reg 0x20: [io  0xfe00-0xfe1f]
+pci 0000:00:10.0: supports D1 D2
+pci 0000:00:10.0: PME# supported from D0 D1 D2 D3hot D3cold
+pci 0000:00:10.1: [1106:3038] type 00 class 0x0c0300
+pci 0000:00:10.1: reg 0x20: [io  0xfd00-0xfd1f]
+pci 0000:00:10.1: supports D1 D2
+pci 0000:00:10.1: PME# supported from D0 D1 D2 D3hot D3cold
+pci 0000:00:10.2: [1106:3038] type 00 class 0x0c0300
+pci 0000:00:10.2: reg 0x20: [io  0xfc00-0xfc1f]
+pci 0000:00:10.2: supports D1 D2
+pci 0000:00:10.2: PME# supported from D0 D1 D2 D3hot D3cold
+pci 0000:00:10.3: [1106:3038] type 00 class 0x0c0300
+pci 0000:00:10.3: reg 0x20: [io  0xfb00-0xfb1f]
+pci 0000:00:10.3: supports D1 D2
+pci 0000:00:10.3: PME# supported from D0 D1 D2 D3hot D3cold
+pci 0000:00:10.4: [1106:3104] type 00 class 0x0c0320
+pci 0000:00:10.4: reg 0x10: [mem 0xfdffe000-0xfdffe0ff]
+pci 0000:00:10.4: supports D1 D2
+pci 0000:00:10.4: PME# supported from D0 D1 D2 D3hot D3cold
+pci 0000:00:11.0: [1106:3227] type 00 class 0x060100
+HPET not enabled in BIOS. You might try hpet=force boot option
+pci 0000:00:11.5: [1106:3059] type 00 class 0x040100
+pci 0000:00:11.5: reg 0x10: [io  0xf600-0xf6ff]
+pci 0000:00:11.5: supports D1 D2
+pci_bus 0000:01: extended config space not accessible
+pci 0000:01:00.0: [1106:3344] type 00 class 0x030000
+pci 0000:01:00.0: reg 0x10: [mem 0xf4000000-0xf7ffffff pref]
+pci 0000:01:00.0: reg 0x14: [mem 0xfb000000-0xfbffffff]
+pci 0000:01:00.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+pci 0000:01:00.0: supports D1 D2
+pci 0000:00:01.0: PCI bridge to [bus 01]
+pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+pci 0000:00:01.0:   bridge window [mem 0xfb000000-0xfcffffff]
+pci 0000:00:01.0:   bridge window [mem 0xf4000000-0xf7ffffff pref]
+pci_bus 0000:00: on NUMA node 0
+ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 6 7 *10 11 12)
+ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 6 7 10 11 12) *5
+ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 6 7 10 *11 12)
+ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 6 7 10 11 12) *0, disabled.
+ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 6 7 10 11 12) *0, disabled.
+ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 6 7 10 11 12) *0, disabled.
+ACPI: PCI Interrupt Link [LNK0] (IRQs 3 4 6 7 10 11 12) *0, disabled.
+ACPI: PCI Interrupt Link [LNK1] (IRQs 3 4 6 7 10 11 12) *0, disabled.
+ACPI: PCI Interrupt Link [ALKA] (IRQs *20), disabled.
+ACPI: PCI Interrupt Link [ALKB] (IRQs *21)
+ACPI: PCI Interrupt Link [ALKC] (IRQs *22)
+ACPI: PCI Interrupt Link [ALKD] (IRQs *23), disabled.
+PCI: Using ACPI for IRQ routing
+PCI: pci_cache_line_size set to 64 bytes
+e820: reserve RAM buffer [mem 0x0009f800-0x0009ffff]
+e820: reserve RAM buffer [mem 0x0eef0000-0x0fffffff]
+clocksource: Switched to clocksource pit
+pnp: PnP ACPI init
+system 00:00: [mem 0x000cc000-0x000cffff] has been reserved
+system 00:00: [mem 0x000d6800-0x000d7fff] has been reserved
+system 00:00: [mem 0x000f0000-0x000fbfff] could not be reserved
+system 00:00: [mem 0x000fc000-0x000fffff] could not be reserved
+system 00:00: [mem 0x0eef0000-0x0eefffff] could not be reserved
+system 00:00: [mem 0xffff0000-0xffffffff] has been reserved
+system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+system 00:00: [mem 0x00100000-0x0eeeffff] could not be reserved
+system 00:00: [mem 0xfec00000-0xfec00fff] has been reserved
+system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+system 00:00: [mem 0xfff80000-0xfffeffff] has been reserved
+system 00:00: Plug and Play ACPI device, IDs PNP0c01 (active)
+system 00:01: [io  0x0400-0x047f] has been reserved
+system 00:01: [io  0x0500-0x050f] has been reserved
+system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+system 00:02: [io  0x04d0-0x04d1] has been reserved
+system 00:02: [io  0x0290-0x029f] has been reserved
+system 00:02: [io  0x0800-0x0805] has been reserved
+system 00:02: Plug and Play ACPI device, IDs PNP0c02 (active)
+pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+pnp 00:04: Plug and Play ACPI device, IDs PNP0501 (active)
+pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+pnp 00:06: [dma 3]
+pnp 00:06: Plug and Play ACPI device, IDs PNP0401 (active)
+pnp: PnP ACPI: found 7 devices
+PnPBIOS: Disabled
+clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+clocksource: Switched to clocksource acpi_pm
+pci 0000:01:00.0: BAR 6: assigned [mem 0xfc000000-0xfc00ffff pref]
+pci 0000:00:01.0: PCI bridge to [bus 01]
+pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+pci 0000:00:01.0:   bridge window [mem 0xfb000000-0xfcffffff]
+pci 0000:00:01.0:   bridge window [mem 0xf4000000-0xf7ffffff pref]
+pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+pci_bus 0000:00: resource 5 [mem 0x00000000-0xffffffff]
+pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+pci_bus 0000:01: resource 1 [mem 0xfb000000-0xfcffffff]
+pci_bus 0000:01: resource 2 [mem 0xf4000000-0xf7ffffff pref]
+NET: Registered protocol family 2
+tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear)
+TCP established hash table entries: 2048 (order: 1, 8192 bytes, linear)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes, linear)
+TCP: Hash tables configured (established 2048 bind 2048)
+UDP hash table entries: 256 (order: 0, 4096 bytes, linear)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes, linear)
+pci 0000:00:01.0: disabling DAC on VIA PCI bridge
+PCI Interrupt Link [LNKA] enabled at IRQ 10
+PCI: setting IRQ 10 as level-triggered
+PCI Interrupt Link [LNKB] enabled at IRQ 11
+PCI: setting IRQ 11 as level-triggered
+pci 0000:00:10.2: VIA VLink IRQ fixup, from 5 to 11
+pci 0000:00:10.3: VIA VLink IRQ fixup, from 5 to 11
+PCI Interrupt Link [LNKC] enabled at IRQ 11
+pci 0000:01:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+PCI: CLS 64 bytes, default 64
+workingset: timestamp_bits=30 max_order=16 bucket_order=0
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+isapnp: Scanning for PnP cards...
+isapnp: No Plug & Play device found
+i8042: PNP: No PS/2 controller found.
+i8042: Probing ports directly.
+serio: i8042 KBD port at 0x60,0x64 irq 1
+serio: i8042 AUX port at 0x60,0x64 irq 12
+process '/bin/busybox' started with executable stack
+Freeing unused kernel image (initmem) memory: 12768K
+Write protecting kernel text and read-only data: 3112k
+Run /init as init process
+with arguments:
+/init
+with environment:
+HOME=/
+TERM=linux
+ieee80211_regdom=PL
+BOOT_IMAGE=/boot/stable.img
+NET: Registered protocol family 1
+random: fast init done
+softdog: initialized. soft_noboot=0 soft_margin=60 sec soft_panic=0 (nowayout=1)
+io scheduler mq-deadline registered
+watchdog: watchdog0: nowayout prevents watchdog being stopped!
+watchdog: watchdog0: watchdog did not stop!
+via_cputemp via_cputemp.0: hwmon_device_register() is deprecated. Please convert the driver to use hwmon_device_register_with_info().
+ACPI: bus type USB registered
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ehci-pci: EHCI PCI platform driver
+ehci-pci 0000:00:10.4: EHCI Host Controller
+ehci-pci 0000:00:10.4: new USB bus registered, assigned bus number 1
+ehci-pci 0000:00:10.4: irq 11, io mem 0xfdffe000
+ehci-pci 0000:00:10.4: USB 2.0 started, EHCI 1.00
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.06
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 5.6.0 ehci_hcd
+usb usb1: SerialNumber: 0000:00:10.4
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 8 ports detected
+rtc_cmos 00:03: RTC can wake from S4
+rtc_cmos 00:03: registered as rtc0
+rtc_cmos 00:03: alarms up to one year, y3k, 242 bytes nvram
+Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+00:05: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+SCSI subsystem initialized
+libata version 3.00 loaded.
+pata_via 0000:00:0f.0: version 0.3.4
+pata_via 0000:00:0f.0: VIA VLink IRQ fixup, from 255 to 10
+scsi host0: pata_via
+scsi host1: pata_via
+ata1: PATA max UDMA/133 cmd 0x1f0 ctl 0x3f6 bmdma 0xff00 irq 14
+ata2: PATA max UDMA/133 cmd 0x170 ctl 0x376 bmdma 0xff08 irq 15
+ata1.00: ATA-0: JMAU FDM 128MB, 2.0, max UDMA/66
+ata1.00: 250368 sectors, multi 1: LBA 
+scsi 0:0:0:0: Direct-Access     ATA      JMAU FDM 128MB   2.0  PQ: 0 ANSI: 5
+ata2: port disabled--ignoring
+uhci_hcd: USB Universal Host Controller Interface driver
+uhci_hcd 0000:00:10.0: UHCI Host Controller
+uhci_hcd 0000:00:10.0: new USB bus registered, assigned bus number 2
+uhci_hcd 0000:00:10.0: irq 10, io base 0x0000fe00
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.06
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: UHCI Host Controller
+usb usb2: Manufacturer: Linux 5.6.0 uhci_hcd
+usb usb2: SerialNumber: 0000:00:10.0
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 2 ports detected
+uhci_hcd 0000:00:10.1: UHCI Host Controller
+uhci_hcd 0000:00:10.1: new USB bus registered, assigned bus number 3
+uhci_hcd 0000:00:10.1: irq 10, io base 0x0000fd00
+sd 0:0:0:0: [sda] 250368 512-byte logical blocks: (128 MB/122 MiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.06
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: UHCI Host Controller
+usb usb3: Manufacturer: Linux 5.6.0 uhci_hcd
+usb usb3: SerialNumber: 0000:00:10.1
+sd 0:0:0:0: [sda] Attached SCSI disk
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 2 ports detected
+uhci_hcd 0000:00:10.2: UHCI Host Controller
+uhci_hcd 0000:00:10.2: new USB bus registered, assigned bus number 4
+uhci_hcd 0000:00:10.2: irq 11, io base 0x0000fc00
+usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.06
+usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb4: Product: UHCI Host Controller
+usb usb4: Manufacturer: Linux 5.6.0 uhci_hcd
+usb usb4: SerialNumber: 0000:00:10.2
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 2 ports detected
+uhci_hcd 0000:00:10.3: UHCI Host Controller
+uhci_hcd 0000:00:10.3: new USB bus registered, assigned bus number 5
+uhci_hcd 0000:00:10.3: irq 11, io base 0x0000fb00
+usb usb5: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.06
+usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb5: Product: UHCI Host Controller
+usb usb5: Manufacturer: Linux 5.6.0 uhci_hcd
+usb usb5: SerialNumber: 0000:00:10.3
+hub 5-0:1.0: USB hub found
+hub 5-0:1.0: 2 ports detected
+watchdog: watchdog0: nowayout prevents watchdog being stopped!
+watchdog: watchdog0: watchdog did not stop!
+8139too: 8139too Fast Ethernet driver 0.9.28
+8139too 0000:00:0d.0 eth0: RealTek RTL8139 at 0x(ptrval), 00:19:21:af:fa:bc, IRQ 11
+8139too 0000:00:0d.0 eth0: link up, 100Mbps, full-duplex, lpa 0x45E1
+NET: Registered protocol family 17
+input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+ACPI: Power Button [PWRB]
+input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1
+ACPI: Sleep Button [SLPB]
+input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+ACPI: Power Button [PWRF]
+input: PC Speaker as /devices/platform/pcspkr/input/input3
+thermal LNXTHERM:00: registered as thermal_zone0
+ACPI: Thermal Zone [THRM] (40 C)
+Warning: Processor Platform Limit event detected, but not handled.
+Consider compiling CPUfreq support into your kernel.
+EXT4-fs (sda): mounted filesystem with ordered data mode. Opts: errors=continue,commit=60
+ext4 filesystem being mounted at /media/sda supports timestamps until 2038 (0x7fffffff)
+random: dnsmasq: uninitialized urandom read (128 bytes read)
+random: dnsmasq: uninitialized urandom read (48 bytes read)
+random: crng init done
+watchdog: watchdog0: nowayout prevents watchdog being stopped!
+watchdog: watchdog0: watchdog did not stop!

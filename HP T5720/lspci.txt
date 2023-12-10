@@ -1,0 +1,12 @@
+00:00.0 Host bridge: 1039:0741 
+00:01.0 PCI bridge: 1039:0003 
+00:02.0 ISA bridge: 1039:0963 
+00:02.1 SMBus: 1039:0016 sis96x_smbus
+00:02.5 IDE interface: 1039:5513 pata_sis
+00:02.7 Multimedia audio controller: 1039:7012 snd_intel8x0
+00:03.0 USB controller: 1039:7001 ohci-pci
+00:03.1 USB controller: 1039:7001 ohci-pci
+00:03.2 USB controller: 1039:7002 ehci-pci
+00:0a.0 Ethernet controller: 1106:3065 via-rhine
+00:0b.0 Multimedia controller: 1131:7134 saa7134
+01:00.0 VGA compatible controller: 1039:6330 

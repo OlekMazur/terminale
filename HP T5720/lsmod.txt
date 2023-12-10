@@ -1,0 +1,83 @@
+Module                  Size  Used by    Not tainted
+xt_MASQUERADE          16384  1 
+crc32c_generic         16384  1 
+ext4                  270336  1 
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                   49152  1 ext4
+xt_state               16384  2 
+nf_log_ipv4            16384  5 
+nf_log_common          16384  1 nf_log_ipv4
+xt_LOG                 16384  5 
+xt_limit               16384  6 
+evdev                  20480  4 
+processor              24576  0 
+8250                   16384  0 
+8250_base              24576  1 8250
+serial_core            24576  4 8250,8250_base
+thermal                16384  0 
+atkbd                  20480  0 
+pcspkr                 16384  0 
+button                 16384  0 
+sd_mod                 32768  1 
+i2c_sis96x             16384  0 
+af_packet              32768  0 
+pata_sis               16384  1 
+xt_tcpudp              16384  5 
+libata                122880  1 pata_sis
+scsi_mod               65536  2 sd_mod,libata
+iptable_nat            16384  1 
+nf_nat                 20480  2 xt_MASQUERADE,iptable_nat
+nf_conntrack           45056  3 xt_MASQUERADE,xt_state,nf_nat
+nf_defrag_ipv4         16384  1 nf_conntrack
+iptable_filter         16384  1 
+ip_tables              20480  2 iptable_nat,iptable_filter
+x_tables               20480  7 xt_MASQUERADE,xt_state,xt_LOG,xt_limit,xt_tcpudp,iptable_filter,ip_tables
+snd_intel8x0           28672  0 
+saa7134_alsa           20480  0 
+snd_ac97_codec         69632  1 snd_intel8x0
+ac97_bus               16384  1 snd_ac97_codec
+snd_pcm                53248  3 snd_intel8x0,saa7134_alsa,snd_ac97_codec
+snd_timer              24576  1 snd_pcm
+snd                    28672  5 snd_intel8x0,saa7134_alsa,snd_ac97_codec,snd_pcm,snd_timer
+soundcore              16384  1 snd
+saa7134_empress        16384  1 
+via_rhine              24576  0 
+mii                    16384  1 via_rhine
+saa6752hs              16384  1 
+tuner_simple           20480  1 
+tuner_types            16384  1 tuner_simple
+tda9887                16384  1 
+tuner                  24576  2 
+saa7134               122880  2 saa7134_alsa,saa7134_empress
+tveeprom               20480  1 saa7134
+videobuf2_dma_sg       16384  2 saa7134_empress,saa7134
+videobuf2_memops       16384  1 videobuf2_dma_sg
+videobuf2_v4l2         20480  2 saa7134_empress,saa7134
+videobuf2_common       32768  2 saa7134,videobuf2_v4l2
+v4l2_common            16384  3 saa6752hs,tuner,saa7134
+videodev               98304  7 saa7134_empress,saa6752hs,tuner,saa7134,videobuf2_v4l2,v4l2_common
+ohci_pci               16384  0 
+ohci_hcd               24576  1 ohci_pci
+uhci_hcd               24576  0 
+eeprom                 16384  0 
+lm85                   24576  0 
+smsc47m192             16384  0 
+w83781d                20480  0 
+i2c_core               28672 13 i2c_sis96x,saa6752hs,tuner_simple,tda9887,tuner,saa7134,tveeprom,v4l2_common,videodev,eeprom,lm85,smsc47m192,w83781d
+hwmon_vid              16384  3 lm85,smsc47m192,w83781d
+vt8231                 16384  0 
+via686a                16384  0 
+hwmon                  16384  5 lm85,smsc47m192,w83781d,vt8231,via686a
+ehci_pci               16384  0 
+ehci_hcd               36864  1 ehci_pci
+usbcore               126976  5 ohci_pci,ohci_hcd,uhci_hcd,ehci_pci,ehci_hcd
+usb_common             16384  1 usbcore
+rtc_cmos               16384  1 
+mq_deadline            16384  1 
+softdog                16384  3 
+bridge                 69632  0 
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+unix                   24576 31 
+sch_fq_codel           20480  2 

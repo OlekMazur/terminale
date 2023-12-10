@@ -1,0 +1,66 @@
+/sys/class/sound/card0/device/:
+-r--r--r--    1 root     root          4096 Feb  8 19:12 ari_enabled
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 broken_parity_status
+-r--r--r--    1 root     root          4096 Feb  8 19:12 class
+-rw-r--r--    1 root     root           256 Feb  8 19:12 config
+-r--r--r--    1 root     root          4096 Feb  8 19:12 consistent_dma_mask_bits
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 d3cold_allowed
+--w-------    1 root     root          4096 Feb  8 19:12 dev_rescan
+-r--r--r--    1 root     root          4096 Feb  8 19:12 device
+-r--r--r--    1 root     root          4096 Feb  8 19:12 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 driver -> ../../../bus/pci/drivers/saa7134
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 driver_override
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 enable
+drwxr-xr-x    6 root     root             0 Feb  8 19:12 i2c-1
+-r--r--r--    1 root     root          4096 Feb  8 19:12 irq
+-r--r--r--    1 root     root          4096 Feb  8 19:12 local_cpulist
+-r--r--r--    1 root     root          4096 Feb  8 19:12 local_cpus
+-r--r--r--    1 root     root          4096 Feb  8 19:12 modalias
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 msi_bus
+drwxr-xr-x    2 root     root             0 Feb  8 19:12 power
+--w--w----    1 root     root          4096 Feb  8 19:12 remove
+--w-------    1 root     root          4096 Feb  8 19:12 reset
+-r--r--r--    1 root     root          4096 Feb  8 19:12 resource
+-rw-------    1 root     root          1024 Feb  8 19:12 resource0
+-r--r--r--    1 root     root          4096 Feb  8 19:12 revision
+drwxr-xr-x    3 root     root             0 Feb  8 19:12 sound
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Feb  8 19:12 subsystem_device
+-r--r--r--    1 root     root          4096 Feb  8 19:12 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 uevent
+-r--r--r--    1 root     root          4096 Feb  8 19:12 vendor
+drwxr-xr-x    6 root     root             0 Feb  8 19:12 video4linux
+
+/sys/class/sound/card1/device/:
+drwxr-xr-x    3 root     root             0 Feb  8 19:12 1-0:VIA1612A
+-r--r--r--    1 root     root          4096 Feb  8 19:12 ari_enabled
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 broken_parity_status
+-r--r--r--    1 root     root          4096 Feb  8 19:12 class
+-rw-r--r--    1 root     root           256 Feb  8 19:12 config
+-r--r--r--    1 root     root          4096 Feb  8 19:12 consistent_dma_mask_bits
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 d3cold_allowed
+--w-------    1 root     root          4096 Feb  8 19:12 dev_rescan
+-r--r--r--    1 root     root          4096 Feb  8 19:12 device
+-r--r--r--    1 root     root          4096 Feb  8 19:12 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 driver -> ../../../bus/pci/drivers/snd_via82xx
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 driver_override
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 enable
+-r--r--r--    1 root     root          4096 Feb  8 19:12 irq
+-r--r--r--    1 root     root          4096 Feb  8 19:12 local_cpulist
+-r--r--r--    1 root     root          4096 Feb  8 19:12 local_cpus
+-r--r--r--    1 root     root          4096 Feb  8 19:12 modalias
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 msi_bus
+drwxr-xr-x    2 root     root             0 Feb  8 19:12 power
+--w--w----    1 root     root          4096 Feb  8 19:12 remove
+--w-------    1 root     root          4096 Feb  8 19:12 reset
+-r--r--r--    1 root     root          4096 Feb  8 19:12 resource
+-rw-------    1 root     root           256 Feb  8 19:12 resource0
+-rw-------    1 root     root             4 Feb  8 19:12 resource1
+-rw-------    1 root     root             4 Feb  8 19:12 resource2
+-r--r--r--    1 root     root          4096 Feb  8 19:12 revision
+drwxr-xr-x    3 root     root             0 Feb  8 19:12 sound
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Feb  8 19:12 subsystem_device
+-r--r--r--    1 root     root          4096 Feb  8 19:12 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 uevent
+-r--r--r--    1 root     root          4096 Feb  8 19:12 vendor

@@ -1,0 +1,12 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux 5.3.9 ehci_hcd EHCI Host Controller
+Bus 002 Device 001: ID 1d6b:0001 Linux 5.3.9 uhci_hcd UHCI Host Controller
+Bus 003 Device 001: ID 1d6b:0001 Linux 5.3.9 uhci_hcd UHCI Host Controller
+Bus 004 Device 001: ID 1d6b:0001 Linux 5.3.9 uhci_hcd UHCI Host Controller
+Bus 005 Device 001: ID 1d6b:0001 Linux 5.3.9 uhci_hcd UHCI Host Controller
+Bus 001 Device 002: ID 046d:0825 
+Bus 001 Device 003: ID 148f:5370 Ralink 802.11 n WLAN
+Bus 001 Device 004: ID 12d1:1506 HUAWEI_MOBILE
+Bus 001 Device 005: ID 05e3:0608 USB2.0 Hub
+Bus 001 Device 006: ID 05e3:0715 Genesys USB Reader
+Bus 001 Device 007: ID 6547:0232 ArkMicroChips USB-UART Controller
+Bus 001 Device 008: ID 0a12:0001 CSR8510 A10

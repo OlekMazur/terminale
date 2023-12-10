@@ -1,0 +1,104 @@
+Module                  Size  Used by    Not tainted
+xt_MASQUERADE          12288  1 
+af_packet              28672  0 
+iptable_nat            12288  1 
+nf_nat                 16384  2 xt_MASQUERADE,iptable_nat
+ext4                  290816  2 
+crc16                  12288  1 ext4
+mbcache                12288  1 ext4
+jbd2                   40960  1 ext4
+huawei_cdc_ncm         12288  0 
+cdc_wdm                16384  1 huawei_cdc_ncm
+cdc_ncm                16384  1 huawei_cdc_ncm
+cdc_ether              12288  1 cdc_ncm
+usbnet                 20480  3 huawei_cdc_ncm,cdc_ncm,cdc_ether
+mii                    12288  1 usbnet
+option                 40960  1 
+usb_wwan               12288  1 option
+snd_usb_audio         147456  0 
+snd_hwdep              12288  1 snd_usb_audio
+snd_usbmidi_lib        20480  1 snd_usb_audio
+snd_rawmidi            16384  1 snd_usbmidi_lib
+snd_seq_device         12288  1 snd_rawmidi
+uvcvideo               61440  1 
+videobuf2_vmalloc      12288  1 uvcvideo
+videobuf2_memops       12288  1 videobuf2_vmalloc
+videobuf2_v4l2         16384  1 uvcvideo
+videobuf2_common       28672  4 uvcvideo,videobuf2_vmalloc,videobuf2_memops,videobuf2_v4l2
+videodev              102400  3 uvcvideo,videobuf2_v4l2
+ctr                    12288  1 
+ccm                    16384  3 
+usb_storage            40960  1 
+pl2303                 12288  1 
+usbserial              20480  7 option,usb_wwan,pl2303
+sd_mod                 28672  2 
+evdev                  16384  8 
+processor              16384  0 
+atkbd                  16384  0 
+button                 12288  0 
+rt2800usb              20480  0 
+pcspkr                 12288  0 
+rt2x00usb              12288  1 rt2800usb
+rt2800lib              81920  1 rt2800usb
+crc_ccitt              12288  1 rt2800lib
+rt2x00lib              28672  3 rt2800usb,rt2x00usb,rt2800lib
+mac80211              270336  3 rt2x00usb,rt2800lib,rt2x00lib
+libarc4                12288  1 mac80211
+cfg80211              180224  2 rt2x00lib,mac80211
+pata_atiixp            12288  1 
+libata                106496  1 pata_atiixp
+scsi_mod               65536  3 usb_storage,sd_mod,libata
+scsi_common            12288  3 usb_storage,libata,scsi_mod
+snd_hda_codec_realtek    86016  1 
+snd_hda_codec_generic    36864  1 snd_hda_codec_realtek
+r8169                  53248  0 
+mdio_devres            12288  1 r8169
+firmware_class         12288  3 rt2x00lib,cfg80211,r8169
+i2c_piix4              16384  0 
+snd_hda_intel          20480  0 
+snd_intel_dspcfg       12288  1 snd_hda_intel
+snd_hda_codec          40960  3 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel
+snd_hda_core           32768  4 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_pcm                49152  4 snd_usb_audio,snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_timer              20480  1 snd_pcm
+snd                    28672 10 snd_usb_audio,snd_hwdep,snd_usbmidi_lib,snd_rawmidi,snd_seq_device,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
+soundcore              12288  1 snd
+ohci_pci               12288  0 
+ohci_hcd               20480  1 ohci_pci
+8250                   12288  0 
+8250_base              24576  1 8250
+serial_core            20480  2 8250,8250_base
+rtc_cmos               12288  1 
+vt8231                 12288  0 
+smsc47m192             12288  0 
+lm90                   20480  0 
+lm85                   20480  0 
+i2c_core               24576  5 videodev,i2c_piix4,smsc47m192,lm90,lm85
+k10temp                12288  0 
+hwmon_vid              12288  2 smsc47m192,lm85
+hwmon                  12288  5 vt8231,smsc47m192,lm90,lm85,k10temp
+ehci_pci               12288  0 
+ehci_hcd               36864  1 ehci_pci
+usbcore               114688 19 huawei_cdc_ncm,cdc_wdm,cdc_ncm,cdc_ether,usbnet,option,usb_wwan,snd_usb_audio,snd_usbmidi_lib,uvcvideo,usb_storage,pl2303,usbserial,rt2800usb,rt2x00usb,ohci_pci,ohci_hcd,ehci_pci,ehci_hcd
+usb_common             12288  1 usbcore
+realtek                16384  1 
+libphy                 49152  3 r8169,mdio_devres,realtek
+crc32c_generic         12288  4 
+nvram                  12288  0 
+lp                     12288  0 
+parport                28672  1 lp
+mq_deadline            12288  2 
+softdog                12288  3 
+xt_limit               12288  1 
+xt_state               12288  2 
+nf_conntrack           36864  3 xt_MASQUERADE,nf_nat,xt_state
+nf_defrag_ipv4         12288  1 nf_conntrack
+xt_tcpudp              12288  2 
+iptable_filter         12288  1 
+ip_tables              16384  2 iptable_nat,iptable_filter
+x_tables               16384  7 xt_MASQUERADE,iptable_nat,xt_limit,xt_state,xt_tcpudp,iptable_filter,ip_tables
+bridge                 77824  0 
+stp                    12288  1 bridge
+llc                    12288  2 bridge,stp
+unix                   24576 43 
+sch_fq_codel           16384  7 

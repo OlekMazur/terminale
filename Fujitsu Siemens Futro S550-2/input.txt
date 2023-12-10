@@ -1,0 +1,80 @@
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="HDA ATI SB Mic"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:14.2/sound/card0/input0
+U: Uniq=
+H: Handlers=event0 
+B: PROP=0
+B: EV=21
+B: SW=10
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="HDA ATI SB Line"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:14.2/sound/card0/input1
+U: Uniq=
+H: Handlers=event1 
+B: PROP=0
+B: EV=21
+B: SW=2000
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="HDA ATI SB Line Out"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:14.2/sound/card0/input2
+U: Uniq=
+H: Handlers=event2 
+B: PROP=0
+B: EV=21
+B: SW=40
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="HDA ATI SB Front Headphone"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:14.2/sound/card0/input3
+U: Uniq=
+H: Handlers=event3 
+B: PROP=0
+B: EV=21
+B: SW=4
+
+I: Bus=0010 Vendor=001f Product=0001 Version=0100
+N: Name="PC Speaker"
+P: Phys=isa0061/input0
+S: Sysfs=/devices/platform/pcspkr/input/input4
+U: Uniq=
+H: Handlers=kbd event4 
+B: PROP=0
+B: EV=40001
+B: SND=6
+
+I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+N: Name="Power Button"
+P: Phys=PNP0C0C/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input5
+U: Uniq=
+H: Handlers=kbd event5 
+B: PROP=0
+B: EV=3
+B: KEY=100000 0 0 0
+
+I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+N: Name="Power Button"
+P: Phys=LNXPWRBN/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input6
+U: Uniq=
+H: Handlers=kbd event6 
+B: PROP=0
+B: EV=3
+B: KEY=100000 0 0 0
+
+I: Bus=0003 Vendor=046d Product=0825 Version=0010
+N: Name="UVC Camera (046d:0825)"
+P: Phys=usb-0000:00:13.5-9/button
+S: Sysfs=/devices/pci0000:00/0000:00:13.5/usb1/1-9/1-9:1.0/input/input9
+U: Uniq=
+H: Handlers=kbd event7 
+B: PROP=0
+B: EV=3
+B: KEY=100000 0 0 0 0 0 0
+

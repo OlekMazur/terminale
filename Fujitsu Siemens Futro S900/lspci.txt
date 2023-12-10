@@ -1,0 +1,26 @@
+00:00.0 Host bridge: 1022:1510 
+00:01.0 VGA compatible controller: 1002:9805 
+00:01.1 Audio device: 1002:1314 snd_hda_intel
+00:04.0 PCI bridge: 1022:1512 
+00:11.0 SATA controller: 1002:4391 ahci
+00:12.0 USB controller: 1002:4397 ohci-pci
+00:12.2 USB controller: 1002:4396 ehci-pci
+00:13.0 USB controller: 1002:4397 ohci-pci
+00:13.2 USB controller: 1002:4396 ehci-pci
+00:14.0 SMBus: 1002:4385 piix4_smbus
+00:14.2 Audio device: 1002:4383 snd_hda_intel
+00:14.3 ISA bridge: 1002:439D 
+00:14.4 PCI bridge: 1002:4384 
+00:14.5 USB controller: 1002:4399 ohci-pci
+00:16.0 USB controller: 1002:4397 ohci-pci
+00:16.2 USB controller: 1002:4396 ehci-pci
+00:18.0 Host bridge: 1022:1700 
+00:18.1 Host bridge: 1022:1701 
+00:18.2 Host bridge: 1022:1702 
+00:18.3 Host bridge: 1022:1703 k10temp
+00:18.4 Host bridge: 1022:1704 
+00:18.5 Host bridge: 1022:1718 
+00:18.6 Host bridge: 1022:1716 
+00:18.7 Host bridge: 1022:1719 
+01:00.0 Ethernet controller: 10EC:8168 r8169
+02:07.0 Multimedia controller: 1131:7134 saa7134

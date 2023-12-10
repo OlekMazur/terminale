@@ -1,0 +1,10 @@
+00:00.0 Host bridge: 1106:3123 
+00:01.0 PCI bridge: 1106:B091 
+00:10.0 USB controller: 1106:3038 uhci_hcd
+00:10.1 USB controller: 1106:3038 uhci_hcd
+00:10.3 USB controller: 1106:3104 ehci-pci
+00:11.0 ISA bridge: 1106:3177 
+00:11.1 IDE interface: 1106:0571 pata_via
+00:11.5 Multimedia audio controller: 1106:3059 snd_via82xx
+00:12.0 Ethernet controller: 1106:3065 via-rhine
+01:00.0 VGA compatible controller: 1106:3122 

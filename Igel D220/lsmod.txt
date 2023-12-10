@@ -1,0 +1,71 @@
+Module                  Size  Used by    Not tainted
+f71882fg               24576  0 
+xt_MASQUERADE          12288  1 
+af_packet              28672  0 
+iptable_nat            12288  1 
+nf_nat                 16384  2 xt_MASQUERADE,iptable_nat
+ext4                  290816  1 
+crc16                  12288  1 ext4
+mbcache                12288  1 ext4
+jbd2                   40960  1 ext4
+evdev                  16384  8 
+sd_mod                 28672  1 
+snd_hda_codec_realtek    81920  1 
+snd_hda_codec_generic    36864  2 snd_hda_codec_realtek
+processor              16384  0 
+thermal                12288  0 
+pcspkr                 12288  0 
+button                 12288  0 
+snd_hda_intel          20480  0 
+snd_intel_dspcfg       12288  1 snd_hda_intel
+snd_hda_codec          40960  3 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel
+snd_hda_core           32768  4 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_pcm                49152  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_timer              20480  1 snd_pcm
+snd                    28672  5 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
+soundcore              12288  1 snd
+ahci                   32768  1 
+libahci                20480  1 ahci
+libata                102400  2 ahci,libahci
+scsi_mod               65536  2 sd_mod,libata
+scsi_common            12288  2 libata,scsi_mod
+r8169                  53248  0 
+mdio_devres            12288  1 r8169
+firmware_class         12288  1 r8169
+i2c_i801               16384  0 
+i2c_smbus              12288  1 i2c_i801
+rtc_cmos               12288  1 
+vt8231                 12288  0 
+smsc47m192             12288  0 
+lm90                   20480  0 
+lm85                   20480  0 
+i2c_core               24576  5 i2c_i801,i2c_smbus,smsc47m192,lm90,lm85
+k10temp                12288  0 
+hwmon_vid              12288  2 smsc47m192,lm85
+coretemp               12288  0 
+hwmon                  12288  7 f71882fg,vt8231,smsc47m192,lm90,lm85,k10temp,coretemp
+ehci_pci               12288  0 
+ehci_hcd               36864  1 ehci_pci
+usbcore               114688  2 ehci_pci,ehci_hcd
+usb_common             12288  1 usbcore
+realtek                16384  1 
+libphy                 49152  3 r8169,mdio_devres,realtek
+crc32c_generic         12288  2 
+nvram                  12288  0 
+lp                     12288  0 
+parport                28672  1 lp
+mq_deadline            12288  1 
+softdog                12288  3 
+xt_state               12288  2 
+nf_conntrack           36864  3 xt_MASQUERADE,nf_nat,xt_state
+nf_defrag_ipv4         12288  1 nf_conntrack
+xt_tcpudp              12288  2 
+xt_limit               12288  1 
+iptable_filter         12288  1 
+ip_tables              16384  2 iptable_nat,iptable_filter
+x_tables               16384  7 xt_MASQUERADE,iptable_nat,xt_state,xt_tcpudp,xt_limit,iptable_filter,ip_tables
+bridge                 81920  0 
+stp                    12288  1 bridge
+llc                    12288  2 bridge,stp
+unix                   24576 23 
+sch_fq_codel           16384  2 

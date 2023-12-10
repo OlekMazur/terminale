@@ -1,0 +1,10 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux 5.17.5 ehci_hcd EHCI Host Controller
+Bus 002 Device 001: ID 1d6b:0001 Linux 5.17.5 ohci_hcd OHCI PCI host controller
+Bus 003 Device 001: ID 1d6b:0001 Linux 5.17.5 ohci_hcd OHCI PCI host controller
+Bus 004 Device 001: ID 1d6b:0001 Linux 5.17.5 ohci_hcd OHCI PCI host controller
+Bus 005 Device 001: ID 1d6b:0001 Linux 5.17.5 ohci_hcd OHCI PCI host controller
+Bus 006 Device 001: ID 1d6b:0001 Linux 5.17.5 ohci_hcd OHCI PCI host controller
+Bus 001 Device 002: ID 148f:5370 Ralink 802.11 n WLAN
+Bus 001 Device 006: ID 12d1:1506 HUAWEI Technology HUAWEI Mobile
+Bus 001 Device 005: ID 046d:0825 
+Bus 004 Device 002: ID 067b:2303 Prolific Technology Inc. USB-Serial Controller

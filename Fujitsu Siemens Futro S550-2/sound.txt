@@ -1,0 +1,56 @@
+/sys/class/sound/card0/device/:
+-r--r--r--    1 root     root          4096 May  6 14:16 ari_enabled
+-rw-r--r--    1 root     root          4096 May  6 14:16 broken_parity_status
+-r--r--r--    1 root     root          4096 May  6 14:16 class
+-rw-r--r--    1 root     root           256 May  6 14:16 config
+-r--r--r--    1 root     root          4096 May  6 14:16 consistent_dma_mask_bits
+-rw-r--r--    1 root     root          4096 May  6 14:16 d3cold_allowed
+-r--r--r--    1 root     root          4096 May  6 14:16 device
+-r--r--r--    1 root     root          4096 May  6 14:16 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 May  6 14:16 driver -> ../../../bus/pci/drivers/snd_hda_intel
+-rw-r--r--    1 root     root          4096 May  6 14:16 driver_override
+-rw-r--r--    1 root     root          4096 May  6 14:16 enable
+lrwxrwxrwx    1 root     root             0 May  6 14:16 firmware_node -> ../../LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:25
+drwxr-xr-x    4 root     root             0 May  6 14:16 hdaudioC0D0
+-r--r--r--    1 root     root          4096 May  6 14:16 irq
+-r--r--r--    1 root     root          4096 May  6 14:16 local_cpulist
+-r--r--r--    1 root     root          4096 May  6 14:16 local_cpus
+-r--r--r--    1 root     root          4096 May  6 14:16 modalias
+-rw-r--r--    1 root     root          4096 May  6 14:16 msi_bus
+drwxr-xr-x    2 root     root             0 May  6 14:16 power
+-r--r--r--    1 root     root          4096 May  6 14:16 power_state
+--w--w----    1 root     root          4096 May  6 14:16 remove
+--w-------    1 root     root          4096 May  6 14:16 rescan
+--w-------    1 root     root          4096 May  6 14:16 reset
+-rw-r--r--    1 root     root          4096 May  6 14:16 reset_method
+-r--r--r--    1 root     root          4096 May  6 14:16 resource
+-rw-------    1 root     root         16384 May  6 14:16 resource0
+-r--r--r--    1 root     root          4096 May  6 14:16 revision
+drwxr-xr-x    3 root     root             0 May  6 14:16 sound
+lrwxrwxrwx    1 root     root             0 May  6 14:16 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 May  6 14:16 subsystem_device
+-r--r--r--    1 root     root          4096 May  6 14:16 subsystem_vendor
+-rw-r--r--    1 root     root          4096 May  6 14:16 uevent
+-r--r--r--    1 root     root          4096 May  6 14:16 vendor
+
+/sys/class/sound/card1/device/:
+-rw-r--r--    1 root     root          4096 May  6 14:16 authorized
+-r--r--r--    1 root     root          4096 May  6 14:16 bAlternateSetting
+-r--r--r--    1 root     root          4096 May  6 14:16 bInterfaceClass
+-r--r--r--    1 root     root          4096 May  6 14:16 bInterfaceNumber
+-r--r--r--    1 root     root          4096 May  6 14:16 bInterfaceProtocol
+-r--r--r--    1 root     root          4096 May  6 14:16 bInterfaceSubClass
+-r--r--r--    1 root     root          4096 May  6 14:16 bNumEndpoints
+lrwxrwxrwx    1 root     root             0 May  6 14:16 driver -> ../../../../../../bus/usb/drivers/snd-usb-audio
+lrwxrwxrwx    1 root     root             0 May  6 14:16 firmware_node -> ../../../../../LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:18/device:19/device:22
+-r--r--r--    1 root     root          4096 May  6 14:16 iad_bFirstInterface
+-r--r--r--    1 root     root          4096 May  6 14:16 iad_bFunctionClass
+-r--r--r--    1 root     root          4096 May  6 14:16 iad_bFunctionProtocol
+-r--r--r--    1 root     root          4096 May  6 14:16 iad_bFunctionSubClass
+-r--r--r--    1 root     root          4096 May  6 14:16 iad_bInterfaceCount
+-r--r--r--    1 root     root          4096 May  6 14:16 modalias
+drwxr-xr-x    2 root     root             0 May  6 14:16 power
+drwxr-xr-x    3 root     root             0 May  5 22:50 sound
+lrwxrwxrwx    1 root     root             0 May  6 14:16 subsystem -> ../../../../../../bus/usb
+-r--r--r--    1 root     root          4096 May  6 14:16 supports_autosuspend
+-rw-r--r--    1 root     root          4096 May  5 22:50 uevent

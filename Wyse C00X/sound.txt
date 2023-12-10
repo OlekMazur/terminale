@@ -1,0 +1,35 @@
+-r--r--r--    1 root     root          4096 Apr  8 00:22 ari_enabled
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 broken_parity_status
+-r--r--r--    1 root     root          4096 Apr  8 00:22 class
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 config
+-r--r--r--    1 root     root          4096 Apr  8 00:22 consistent_dma_mask_bits
+-r--r--r--    1 root     root          4096 Apr  8 00:22 current_link_speed
+-r--r--r--    1 root     root          4096 Apr  8 00:22 current_link_width
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 d3cold_allowed
+--w-------    1 root     root          4096 Apr  8 00:22 dev_rescan
+-r--r--r--    1 root     root          4096 Apr  8 00:22 device
+-r--r--r--    1 root     root          4096 Apr  8 00:22 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Apr  8 00:30 driver -> ../../../bus/pci/drivers/snd_hda_intel
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 driver_override
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 enable
+lrwxrwxrwx    1 root     root             0 Apr  8 00:22 firmware_node -> ../../LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:15
+drwxr-xr-x    4 root     root             0 Apr  8 00:22 hdaudioC0D0
+-r--r--r--    1 root     root          4096 Apr  8 00:22 irq
+-r--r--r--    1 root     root          4096 Apr  8 00:22 local_cpulist
+-r--r--r--    1 root     root          4096 Apr  8 00:22 local_cpus
+-r--r--r--    1 root     root          4096 Apr  8 00:22 max_link_speed
+-r--r--r--    1 root     root          4096 Apr  8 00:22 max_link_width
+-r--r--r--    1 root     root          4096 Apr  8 00:22 modalias
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 msi_bus
+drwxr-xr-x    2 root     root             0 Apr  8 00:22 power
+--w--w----    1 root     root          4096 Apr  8 00:22 remove
+--w-------    1 root     root          4096 Apr  8 00:22 reset
+-r--r--r--    1 root     root          4096 Apr  8 00:22 resource
+-rw-------    1 root     root         16384 Apr  8 00:22 resource0
+-r--r--r--    1 root     root          4096 Apr  8 00:22 revision
+drwxr-xr-x    3 root     root             0 Apr  8 00:22 sound
+lrwxrwxrwx    1 root     root             0 Apr  8 00:22 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Apr  8 00:22 subsystem_device
+-r--r--r--    1 root     root          4096 Apr  8 00:22 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Apr  8 00:22 uevent
+-r--r--r--    1 root     root          4096 Apr  8 00:22 vendor

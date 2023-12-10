@@ -1,0 +1,57 @@
+/sys/class/sound/card0/device/:
+-r--r--r--    1 root     root          4096 Nov 12 23:11 ari_enabled
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 broken_parity_status
+-r--r--r--    1 root     root          4096 Nov 12 23:11 class
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 config
+-r--r--r--    1 root     root          4096 Nov 12 23:11 consistent_dma_mask_bits
+-r--r--r--    1 root     root          4096 Nov 12 23:11 current_link_speed
+-r--r--r--    1 root     root          4096 Nov 12 23:11 current_link_width
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 d3cold_allowed
+-r--r--r--    1 root     root          4096 Nov 12 23:11 device
+-r--r--r--    1 root     root          4096 Nov 12 23:11 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Nov 12 23:11 driver -> ../../../bus/pci/drivers/snd_hda_intel
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 driver_override
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 enable
+lrwxrwxrwx    1 root     root             0 Nov 12 23:11 firmware_node -> ../../LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1e
+drwxr-xr-x    4 root     root             0 Nov 12 23:11 hdaudioC0D0
+-r--r--r--    1 root     root          4096 Nov 12 23:11 irq
+-r--r--r--    1 root     root          4096 Nov 12 23:11 local_cpulist
+-r--r--r--    1 root     root          4096 Nov 12 23:11 local_cpus
+-r--r--r--    1 root     root          4096 Nov 12 23:11 max_link_speed
+-r--r--r--    1 root     root          4096 Nov 12 23:11 max_link_width
+-r--r--r--    1 root     root          4096 Nov 12 23:11 modalias
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 msi_bus
+drwxr-xr-x    2 root     root             0 Nov 12 23:11 power
+--w--w----    1 root     root          4096 Nov 12 23:11 remove
+--w--w----    1 root     root          4096 Nov 12 23:11 rescan
+--w-------    1 root     root          4096 Nov 12 23:11 reset
+-r--r--r--    1 root     root          4096 Nov 12 23:11 resource
+-rw-------    1 root     root         16384 Nov 12 23:11 resource0
+-r--r--r--    1 root     root          4096 Nov 12 23:11 revision
+drwxr-xr-x    3 root     root             0 Nov 12 23:11 sound
+lrwxrwxrwx    1 root     root             0 Nov 12 23:11 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Nov 12 23:11 subsystem_device
+-r--r--r--    1 root     root          4096 Nov 12 23:11 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 uevent
+-r--r--r--    1 root     root          4096 Nov 12 23:11 vendor
+
+/sys/class/sound/card1/device/:
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 authorized
+-r--r--r--    1 root     root          4096 Nov 12 23:11 bAlternateSetting
+-r--r--r--    1 root     root          4096 Nov 12 23:11 bInterfaceClass
+-r--r--r--    1 root     root          4096 Nov 12 23:11 bInterfaceNumber
+-r--r--r--    1 root     root          4096 Nov 12 23:11 bInterfaceProtocol
+-r--r--r--    1 root     root          4096 Nov 12 23:11 bInterfaceSubClass
+-r--r--r--    1 root     root          4096 Nov 12 23:11 bNumEndpoints
+lrwxrwxrwx    1 root     root             0 Nov 12 23:11 driver -> ../../../../../../bus/usb/drivers/snd-usb-audio
+-r--r--r--    1 root     root          4096 Nov 12 23:11 iad_bFirstInterface
+-r--r--r--    1 root     root          4096 Nov 12 23:11 iad_bFunctionClass
+-r--r--r--    1 root     root          4096 Nov 12 23:11 iad_bFunctionProtocol
+-r--r--r--    1 root     root          4096 Nov 12 23:11 iad_bFunctionSubClass
+-r--r--r--    1 root     root          4096 Nov 12 23:11 iad_bInterfaceCount
+-r--r--r--    1 root     root          4096 Nov 12 23:11 modalias
+drwxr-xr-x    2 root     root             0 Nov 12 23:11 power
+drwxr-xr-x    3 root     root             0 Nov 12 23:11 sound
+lrwxrwxrwx    1 root     root             0 Nov 12 23:11 subsystem -> ../../../../../../bus/usb
+-r--r--r--    1 root     root          4096 Nov 12 23:11 supports_autosuspend
+-rw-r--r--    1 root     root          4096 Nov 12 23:11 uevent

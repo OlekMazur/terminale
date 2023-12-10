@@ -1,0 +1,23 @@
+processor	: 0
+vendor_id	: GenuineTMx86
+cpu family	: 5
+model		: 4
+model name	: Transmeta(tm) Crusoe(tm) Processor TM5500
+stepping	: 3
+cpu MHz		: 532.077
+cache size	: 256 KB
+fdiv_bug	: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr cx8 sep cmov mmx longrun lrti constant_tsc cpuid
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 1064.15
+clflush size	: 32
+cache_alignment	: 32
+address sizes	: 32 bits physical, 32 bits virtual
+power management:
+

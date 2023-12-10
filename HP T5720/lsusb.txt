@@ -1,0 +1,3 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux 5.3.9 ehci_hcd EHCI Host Controller
+Bus 002 Device 001: ID 1d6b:0001 Linux 5.3.9 ohci_hcd OHCI PCI host controller
+Bus 003 Device 001: ID 1d6b:0001 Linux 5.3.9 ohci_hcd OHCI PCI host controller

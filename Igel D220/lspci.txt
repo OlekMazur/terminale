@@ -1,0 +1,13 @@
+00:00.0 Host bridge: 8086:0F00 
+00:02.0 VGA compatible controller: 8086:0F31 
+00:13.0 SATA controller: 8086:0F23 ahci
+00:1a.0 Encryption controller: 8086:0F18 
+00:1b.0 Audio device: 8086:0F04 snd_hda_intel
+00:1c.0 PCI bridge: 8086:0F48 
+00:1c.1 PCI bridge: 8086:0F4A 
+00:1c.2 PCI bridge: 8086:0F4C 
+00:1c.3 PCI bridge: 8086:0F4E 
+00:1d.0 USB controller: 8086:0F34 ehci-pci
+00:1f.0 ISA bridge: 8086:0F1C 
+00:1f.3 SMBus: 8086:0F12 i801_smbus
+01:00.0 Ethernet controller: 10EC:8168 r8169

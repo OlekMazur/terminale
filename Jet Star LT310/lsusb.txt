@@ -1,0 +1,7 @@
+Bus 001 Device 001: ID 1d6b:0002 Linux 5.6.3 ehci_hcd EHCI Host Controller
+Bus 002 Device 001: ID 1d6b:0001 Linux 5.6.3 uhci_hcd UHCI Host Controller
+Bus 003 Device 001: ID 1d6b:0001 Linux 5.6.3 uhci_hcd UHCI Host Controller
+Bus 004 Device 001: ID 1d6b:0001 Linux 5.6.3 uhci_hcd UHCI Host Controller
+Bus 005 Device 001: ID 1d6b:0001 Linux 5.6.3 uhci_hcd UHCI Host Controller
+Bus 001 Device 004: ID 12d1:1506 HUAWEI Technology HUAWEI Mobile
+Bus 001 Device 003: ID 148f:5370 Ralink 802.11 n WLAN

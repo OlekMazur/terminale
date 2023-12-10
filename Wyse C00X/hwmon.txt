@@ -1,0 +1,33 @@
+lrwxrwxrwx    1 root     root             0 Apr  9 00:00 hwmon0 -> ../../devices/pci0000:00/0000:00:11.0/i2c-0/0-004c/hwmon/hwmon0
+-r--r--r--    1 root     root          4096 Apr  9 00:03 alarms
+lrwxrwxrwx    1 root     root             0 Apr  9 00:03 device -> ../../../0-004c
+-r--r--r--    1 root     root          4096 Apr  9 00:00 name
+drwxr-xr-x    2 root     root             0 Apr  9 00:03 power
+lrwxrwxrwx    1 root     root             0 Apr  9 00:03 subsystem -> ../../../../../../../class/hwmon
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp1_crit
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp1_crit_alarm
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp1_crit_hyst
+-r--r--r--    1 root     root          4096 Apr  9 00:00 temp1_input
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp1_max
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp1_max_alarm
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp1_min
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp1_min_alarm
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp2_crit
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp2_crit_alarm
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp2_crit_hyst
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp2_fault
+-r--r--r--    1 root     root          4096 Apr  9 00:00 temp2_input
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp2_max
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp2_max_alarm
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp2_min
+-r--r--r--    1 root     root          4096 Apr  9 00:03 temp2_min_alarm
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 temp2_offset
+-rw-r--r--    1 root     root          4096 Apr  9 00:00 uevent
+-rw-r--r--    1 root     root          4096 Apr  9 00:03 update_interval
+lrwxrwxrwx    1 root     root             0 Apr  9 00:03 driver -> ../../../../../bus/i2c/drivers/lm90
+drwxr-xr-x    3 root     root             0 Apr  9 00:00 hwmon
+-r--r--r--    1 root     root          4096 Apr  9 00:03 modalias
+-r--r--r--    1 root     root          4096 Apr  9 00:03 name
+drwxr-xr-x    2 root     root             0 Apr  9 00:03 power
+lrwxrwxrwx    1 root     root             0 Apr  9 00:03 subsystem -> ../../../../../bus/i2c
+-rw-r--r--    1 root     root          4096 Apr  9 00:00 uevent

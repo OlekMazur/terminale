@@ -1,0 +1,50 @@
+lrwxrwxrwx    1 root     root             0 Feb  8 19:07 hwmon0 -> ../../devices/platform/vt8231.24576/hwmon/hwmon0
+lrwxrwxrwx    1 root     root             0 Feb  8 19:07 device -> ../../../vt8231.24576
+drwxr-xr-x    2 root     root             0 Feb  8 19:12 power
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 subsystem -> ../../../../../class/hwmon
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 uevent
+-r--r--r--    1 root     root          4096 Feb  8 19:12 alarms
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 driver -> ../../../bus/platform/drivers/vt8231
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 driver_override
+-r--r--r--    1 root     root          4096 Feb  8 19:12 fan1_alarm
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 fan1_div
+-r--r--r--    1 root     root          4096 Feb  8 19:07 fan1_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 fan1_min
+-r--r--r--    1 root     root          4096 Feb  8 19:12 fan2_alarm
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 fan2_div
+-r--r--r--    1 root     root          4096 Feb  8 19:07 fan2_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 fan2_min
+drwxr-xr-x    3 root     root             0 Feb  8 19:07 hwmon
+-r--r--r--    1 root     root          4096 Feb  8 19:12 in0_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 in0_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in0_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in0_min
+-r--r--r--    1 root     root          4096 Feb  8 19:12 in1_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 in1_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in1_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in1_min
+-r--r--r--    1 root     root          4096 Feb  8 19:12 in2_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 in2_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in2_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in2_min
+-r--r--r--    1 root     root          4096 Feb  8 19:12 in3_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 in3_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in3_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in3_min
+-r--r--r--    1 root     root          4096 Feb  8 19:12 in5_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 in5_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in5_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 in5_min
+-r--r--r--    1 root     root          4096 Feb  8 19:12 modalias
+-r--r--r--    1 root     root          4096 Feb  8 19:07 name
+drwxr-xr-x    2 root     root             0 Feb  8 19:12 power
+lrwxrwxrwx    1 root     root             0 Feb  8 19:12 subsystem -> ../../../bus/platform
+-r--r--r--    1 root     root          4096 Feb  8 19:12 temp1_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 temp1_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 temp1_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 temp1_max_hyst
+-r--r--r--    1 root     root          4096 Feb  8 19:12 temp6_alarm
+-r--r--r--    1 root     root          4096 Feb  8 19:07 temp6_input
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 temp6_max
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 temp6_max_hyst
+-rw-r--r--    1 root     root          4096 Feb  8 19:12 uevent

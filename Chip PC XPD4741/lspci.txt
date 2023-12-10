@@ -1,0 +1,15 @@
+00:00.0 Host bridge: 8086:27AC 
+00:02.0 VGA compatible controller: 8086:27AE 
+00:02.1 Display controller: 8086:27A6 
+00:1b.0 Audio device: 8086:27D8 snd_hda_intel
+00:1c.0 PCI bridge: 8086:27D0 
+00:1d.0 USB controller: 8086:27C8 uhci_hcd
+00:1d.1 USB controller: 8086:27C9 uhci_hcd
+00:1d.2 USB controller: 8086:27CA uhci_hcd
+00:1d.3 USB controller: 8086:27CB uhci_hcd
+00:1d.7 USB controller: 8086:27CC ehci-pci
+00:1e.0 PCI bridge: 8086:2448 
+00:1f.0 ISA bridge: 8086:27B9 
+00:1f.1 IDE interface: 8086:27DF ata_piix
+00:1f.3 SMBus: 8086:27DA i801_smbus
+01:00.0 Ethernet controller: 10EC:8168 r8169

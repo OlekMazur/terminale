@@ -1,0 +1,19 @@
+00:00.0 Host bridge: 1106:0409 
+00:00.1 Host bridge: 1106:1409 
+00:00.2 Host bridge: 1106:2409 
+00:00.3 Host bridge: 1106:3409 
+00:00.4 Host bridge: 1106:4409 
+00:00.5 PIC: 1106:5409 
+00:00.6 Host bridge: 1106:6409 
+00:00.7 Host bridge: 1106:7409 
+00:01.0 VGA compatible controller: 1106:5122 
+00:0f.0 IDE interface: 1106:C409 pata_via
+00:10.0 USB controller: 1106:3038 uhci_hcd
+00:10.1 USB controller: 1106:3038 uhci_hcd
+00:10.2 USB controller: 1106:3038 uhci_hcd
+00:10.4 USB controller: 1106:3104 ehci-pci
+00:11.0 ISA bridge: 1106:8409 
+00:11.7 Host bridge: 1106:A353 
+00:13.0 PCI bridge: 1106:B353 
+00:14.0 Audio device: 1106:3288 snd_hda_intel
+01:03.0 Ethernet controller: 10EC:8167 r8169

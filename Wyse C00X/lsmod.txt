@@ -1,0 +1,64 @@
+Module                  Size  Used by    Not tainted
+processor              20480  1 
+xt_MASQUERADE          16384  1 
+af_packet              32768  0 
+iptable_nat            16384  1 
+nf_nat                 20480  2 xt_MASQUERADE,iptable_nat
+ext4                  274432  1 
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                   49152  1 ext4
+evdev                  20480  4 
+thermal                16384  0 
+atkbd                  20480  0 
+snd_hda_codec_generic    40960  1 
+button                 16384  0 
+pcspkr                 16384  0 
+via_velocity           28672  0 
+snd_hda_intel          24576  0 
+snd_intel_dspcfg       16384  1 snd_hda_intel
+snd_hda_codec          49152  2 snd_hda_codec_generic,snd_hda_intel
+snd_hda_core           36864  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_pcm                57344  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_timer              24576  1 snd_pcm
+snd                    28672  5 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
+soundcore              16384  1 snd
+sd_mod                 32768  1 
+i2c_viapro             16384  0 
+uhci_hcd               24576  0 
+pata_via               16384  1 
+libata                122880  1 pata_via
+scsi_mod               69632  2 sd_mod,libata
+rtc_cmos               16384  1 
+ehci_pci               16384  0 
+ehci_hcd               36864  1 ehci_pci
+usbcore               126976  3 uhci_hcd,ehci_pci,ehci_hcd
+usb_common             16384  1 usbcore
+realtek                16384  0 
+libphy                 53248  1 realtek
+crc32c_generic         16384  2 
+vt8231                 16384  0 
+smsc47m192             16384  0 
+lm90                   24576  0 
+lm85                   24576  0 
+i2c_core               28672  4 i2c_viapro,smsc47m192,lm90,lm85
+hwmon_vid              16384  2 smsc47m192,lm85
+hwmon                  16384  4 vt8231,smsc47m192,lm90,lm85
+mq_deadline            16384  1 
+softdog                16384  3 
+xt_state               16384  2 
+nf_conntrack           45056  3 xt_MASQUERADE,nf_nat,xt_state
+nf_defrag_ipv4         16384  1 nf_conntrack
+xt_tcpudp              16384  2 
+nf_log_ipv4            16384  5 
+nf_log_common          16384  1 nf_log_ipv4
+xt_LOG                 16384  5 
+xt_limit               16384  6 
+iptable_filter         16384  1 
+ip_tables              20480  2 iptable_nat,iptable_filter
+x_tables               20480  7 xt_MASQUERADE,xt_state,xt_tcpudp,xt_LOG,xt_limit,iptable_filter,ip_tables
+bridge                 69632  0 
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+unix                   28672 25 
+sch_fq_codel           20480  2 

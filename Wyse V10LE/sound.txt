@@ -1,0 +1,55 @@
+/sys/class/sound/card0/device/:
+-rw-r--r--    1 root     root          4096 Oct 12 20:01 authorized
+-r--r--r--    1 root     root          4096 Oct 12 20:01 bAlternateSetting
+-r--r--r--    1 root     root          4096 Oct 12 20:01 bInterfaceClass
+-r--r--r--    1 root     root          4096 Oct 12 20:01 bInterfaceNumber
+-r--r--r--    1 root     root          4096 Oct 12 20:01 bInterfaceProtocol
+-r--r--r--    1 root     root          4096 Oct 12 20:01 bInterfaceSubClass
+-r--r--r--    1 root     root          4096 Oct 12 20:01 bNumEndpoints
+lrwxrwxrwx    1 root     root             0 Oct 12 20:01 driver -> ../../../../../../bus/usb/drivers/snd-usb-audio
+-r--r--r--    1 root     root          4096 Oct 12 20:01 iad_bFirstInterface
+-r--r--r--    1 root     root          4096 Oct 12 20:01 iad_bFunctionClass
+-r--r--r--    1 root     root          4096 Oct 12 20:01 iad_bFunctionProtocol
+-r--r--r--    1 root     root          4096 Oct 12 20:01 iad_bFunctionSubClass
+-r--r--r--    1 root     root          4096 Oct 12 20:01 iad_bInterfaceCount
+-r--r--r--    1 root     root          4096 Oct 12 20:01 modalias
+drwxr-xr-x    2 root     root             0 Oct 12 20:01 power
+drwxr-xr-x    3 root     root             0 Oct 12 19:35 sound
+lrwxrwxrwx    1 root     root             0 Oct 12 20:01 subsystem -> ../../../../../../bus/usb
+-r--r--r--    1 root     root          4096 Oct 12 20:01 supports_autosuspend
+-rw-r--r--    1 root     root          4096 Oct 12 19:35 uevent
+
+/sys/class/sound/card1/device/:
+drwxr-xr-x    3 root     root             0 Oct 12 19:35 1-0:VIA1613
+-r--r--r--    1 root     root          4096 Oct 12 19:34 ari_enabled
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 broken_parity_status
+-r--r--r--    1 root     root          4096 Oct 12 19:34 class
+-rw-r--r--    1 root     root           256 Oct 12 19:34 config
+-r--r--r--    1 root     root          4096 Oct 12 19:34 consistent_dma_mask_bits
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 d3cold_allowed
+-r--r--r--    1 root     root          4096 Oct 12 19:34 device
+-r--r--r--    1 root     root          4096 Oct 12 19:34 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 Oct 12 20:01 driver -> ../../../bus/pci/drivers/snd_via82xx
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 driver_override
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 enable
+lrwxrwxrwx    1 root     root             0 Oct 12 19:34 firmware_node -> ../../LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:19
+-r--r--r--    1 root     root          4096 Oct 12 19:34 irq
+-r--r--r--    1 root     root          4096 Oct 12 19:34 local_cpulist
+-r--r--r--    1 root     root          4096 Oct 12 19:34 local_cpus
+-r--r--r--    1 root     root          4096 Oct 12 19:34 modalias
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 msi_bus
+drwxr-xr-x    2 root     root             0 Oct 12 19:34 power
+-r--r--r--    1 root     root          4096 Oct 12 19:34 power_state
+--w--w----    1 root     root          4096 Oct 12 19:34 remove
+--w-------    1 root     root          4096 Oct 12 19:34 rescan
+--w-------    1 root     root          4096 Oct 12 19:34 reset
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 reset_method
+-r--r--r--    1 root     root          4096 Oct 12 19:34 resource
+-rw-------    1 root     root           256 Oct 12 19:34 resource0
+-r--r--r--    1 root     root          4096 Oct 12 19:34 revision
+drwxr-xr-x    3 root     root             0 Oct 12 19:35 sound
+lrwxrwxrwx    1 root     root             0 Oct 12 19:34 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 Oct 12 19:34 subsystem_device
+-r--r--r--    1 root     root          4096 Oct 12 19:34 subsystem_vendor
+-rw-r--r--    1 root     root          4096 Oct 12 19:34 uevent
+-r--r--r--    1 root     root          4096 Oct 12 19:34 vendor

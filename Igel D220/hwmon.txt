@@ -1,0 +1,115 @@
+lrwxrwxrwx    1 root     root             0 Jan  6 15:39 hwmon0 -> ../../devices/platform/coretemp.0/hwmon/hwmon0
+lrwxrwxrwx    1 root     root             0 Jan  6 17:37 hwmon1 -> ../../devices/platform/f71882fg.656/hwmon/hwmon1
+/sys/class/hwmon/hwmon0/:
+lrwxrwxrwx    1 root     root             0 Jan  6 16:53 device -> ../../../coretemp.0
+-r--r--r--    1 root     root          4096 Jan  6 15:39 name
+drwxr-xr-x    2 root     root             0 Jan  6 16:53 power
+lrwxrwxrwx    1 root     root             0 Jan  6 16:53 subsystem -> ../../../../../class/hwmon
+-r--r--r--    1 root     root          4096 Jan  6 16:53 temp2_crit
+-r--r--r--    1 root     root          4096 Jan  6 16:53 temp2_crit_alarm
+-r--r--r--    1 root     root          4096 Jan  6 15:39 temp2_input
+-r--r--r--    1 root     root          4096 Jan  6 16:53 temp2_label
+-r--r--r--    1 root     root          4096 Jan  6 16:53 temp2_max
+-rw-r--r--    1 root     root          4096 Jan  6 15:39 uevent
+
+/sys/class/hwmon/hwmon1/:
+lrwxrwxrwx    1 root     root             0 Jan  6 17:37 device -> ../../../f71882fg.656
+drwxr-xr-x    2 root     root             0 Jan  6 17:49 power
+lrwxrwxrwx    1 root     root             0 Jan  6 17:49 subsystem -> ../../../../../class/hwmon
+-rw-r--r--    1 root     root          4096 Jan  6 17:37 uevent
+/sys/class/hwmon/hwmon0/device/:
+lrwxrwxrwx    1 root     root             0 Jan  6 16:53 driver -> ../../../bus/platform/drivers/coretemp
+-rw-r--r--    1 root     root          4096 Jan  6 16:53 driver_override
+drwxr-xr-x    3 root     root             0 Jan  6 15:39 hwmon
+-r--r--r--    1 root     root          4096 Jan  6 16:53 modalias
+drwxr-xr-x    2 root     root             0 Jan  6 16:53 power
+lrwxrwxrwx    1 root     root             0 Jan  6 16:53 subsystem -> ../../../bus/platform
+-rw-r--r--    1 root     root          4096 Jan  6 15:39 uevent
+
+/sys/class/hwmon/hwmon1/device/:
+lrwxrwxrwx    1 root     root             0 Jan  6 17:49 driver -> ../../../bus/platform/drivers/f71882fg
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 driver_override
+-r--r--r--    1 root     root          4096 Jan  6 17:49 fan1_alarm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 fan1_full_speed
+-r--r--r--    1 root     root          4096 Jan  6 17:37 fan1_input
+-r--r--r--    1 root     root          4096 Jan  6 17:49 fan2_alarm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 fan2_full_speed
+-r--r--r--    1 root     root          4096 Jan  6 17:37 fan2_input
+-r--r--r--    1 root     root          4096 Jan  6 17:49 fan3_alarm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 fan3_full_speed
+-r--r--r--    1 root     root          4096 Jan  6 17:37 fan3_input
+drwxr-xr-x    3 root     root             0 Jan  6 17:37 hwmon
+-r--r--r--    1 root     root          4096 Jan  6 17:37 in0_input
+-r--r--r--    1 root     root          4096 Jan  6 17:37 in1_input
+-r--r--r--    1 root     root          4096 Jan  6 17:37 in2_input
+-r--r--r--    1 root     root          4096 Jan  6 17:49 modalias
+-r--r--r--    1 root     root          4096 Jan  6 17:37 name
+drwxr-xr-x    2 root     root             0 Jan  6 17:49 power
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_channels_temp
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point1_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point1_temp
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point1_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point2_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point2_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point2_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point3_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point3_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point3_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point4_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point4_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point4_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_auto_point5_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_enable
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm1_interpolate
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_channels_temp
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point1_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point1_temp
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point1_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point2_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point2_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point2_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point3_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point3_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point3_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point4_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point4_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point4_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_auto_point5_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_enable
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm2_interpolate
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_channels_temp
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point1_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point1_temp
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point1_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point2_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point2_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point2_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point3_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point3_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point3_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point4_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point4_temp
+-r--r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point4_temp_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_auto_point5_pwm
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_enable
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 pwm3_interpolate
+lrwxrwxrwx    1 root     root             0 Jan  6 17:49 subsystem -> ../../../bus/platform
+-r--r--r--    1 root     root          4096 Jan  6 17:49 temp1_alarm
+-r--r--r--    1 root     root          4096 Jan  6 17:49 temp1_fault
+-r--r--r--    1 root     root          4096 Jan  6 17:37 temp1_input
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 temp1_max
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 temp1_max_hyst
+-r--r--r--    1 root     root          4096 Jan  6 17:49 temp2_alarm
+-r--r--r--    1 root     root          4096 Jan  6 17:49 temp2_fault
+-r--r--r--    1 root     root          4096 Jan  6 17:37 temp2_input
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 temp2_max
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 temp2_max_hyst
+-r--r--r--    1 root     root          4096 Jan  6 17:49 temp3_alarm
+-r--r--r--    1 root     root          4096 Jan  6 17:49 temp3_fault
+-r--r--r--    1 root     root          4096 Jan  6 17:37 temp3_input
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 temp3_max
+-rw-r--r--    1 root     root          4096 Jan  6 17:49 temp3_max_hyst
+-rw-r--r--    1 root     root          4096 Jan  6 17:37 uevent

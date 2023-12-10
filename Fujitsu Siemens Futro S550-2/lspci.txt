@@ -1,0 +1,22 @@
+00:00.0 Host bridge: 1002:7910 
+00:01.0 PCI bridge: 1002:7912 
+00:06.0 PCI bridge: 1002:7916 
+00:07.0 PCI bridge: 1002:7917 
+00:13.0 USB controller: 1002:4387 ohci-pci
+00:13.1 USB controller: 1002:4388 ohci-pci
+00:13.2 USB controller: 1002:4389 ohci-pci
+00:13.3 USB controller: 1002:438A ohci-pci
+00:13.4 USB controller: 1002:438B ohci-pci
+00:13.5 USB controller: 1002:4386 ehci-pci
+00:14.0 SMBus: 1002:4385 piix4_smbus
+00:14.1 IDE interface: 1002:438C pata_atiixp
+00:14.2 Audio device: 1002:4383 snd_hda_intel
+00:14.3 ISA bridge: 1002:438D 
+00:14.4 PCI bridge: 1002:4384 
+00:18.0 Host bridge: 1022:1100 
+00:18.1 Host bridge: 1022:1101 
+00:18.2 Host bridge: 1022:1102 
+00:18.3 Host bridge: 1022:1103 
+01:05.0 VGA compatible controller: 1002:791F 
+08:00.0 Ethernet controller: 10EC:8168 r8169
+0e:07.0 Multimedia controller: 1131:7134 saa7134

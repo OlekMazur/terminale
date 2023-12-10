@@ -1,0 +1,37 @@
+-r--r--r--    1 root     root          4096 May  7 11:17 ari_enabled
+-rw-r--r--    1 root     root          4096 May  7 11:17 broken_parity_status
+-r--r--r--    1 root     root          4096 May  7 11:17 class
+-rw-r--r--    1 root     root          4096 May  7 11:17 config
+-r--r--r--    1 root     root          4096 May  7 11:17 consistent_dma_mask_bits
+-r--r--r--    1 root     root          4096 May  7 11:17 current_link_speed
+-r--r--r--    1 root     root          4096 May  7 11:17 current_link_width
+-rw-r--r--    1 root     root          4096 May  7 11:17 d3cold_allowed
+-r--r--r--    1 root     root          4096 May  7 11:17 device
+-r--r--r--    1 root     root          4096 May  7 11:17 dma_mask_bits
+lrwxrwxrwx    1 root     root             0 May  7 13:02 driver -> ../../../bus/pci/drivers/snd_hda_intel
+-rw-r--r--    1 root     root          4096 May  7 11:17 driver_override
+-rw-r--r--    1 root     root          4096 May  7 11:17 enable
+lrwxrwxrwx    1 root     root             0 May  7 11:17 firmware_node -> ../../LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0e
+drwxr-xr-x    4 root     root             0 May  7 11:17 hdaudioC0D0
+-r--r--r--    1 root     root          4096 May  7 11:17 irq
+-r--r--r--    1 root     root          4096 May  7 11:17 local_cpulist
+-r--r--r--    1 root     root          4096 May  7 11:17 local_cpus
+-r--r--r--    1 root     root          4096 May  7 11:17 max_link_speed
+-r--r--r--    1 root     root          4096 May  7 11:17 max_link_width
+-r--r--r--    1 root     root          4096 May  7 11:17 modalias
+-rw-r--r--    1 root     root          4096 May  7 11:17 msi_bus
+drwxr-xr-x    2 root     root             0 May  7 11:17 power
+-r--r--r--    1 root     root          4096 May  7 11:17 power_state
+--w--w----    1 root     root          4096 May  7 11:17 remove
+--w-------    1 root     root          4096 May  7 11:17 rescan
+--w-------    1 root     root          4096 May  7 11:17 reset
+-rw-r--r--    1 root     root          4096 May  7 11:17 reset_method
+-r--r--r--    1 root     root          4096 May  7 11:17 resource
+-rw-------    1 root     root         16384 May  7 11:17 resource0
+-r--r--r--    1 root     root          4096 May  7 11:17 revision
+drwxr-xr-x    3 root     root             0 May  7 11:17 sound
+lrwxrwxrwx    1 root     root             0 May  7 11:17 subsystem -> ../../../bus/pci
+-r--r--r--    1 root     root          4096 May  7 11:17 subsystem_device
+-r--r--r--    1 root     root          4096 May  7 11:17 subsystem_vendor
+-rw-r--r--    1 root     root          4096 May  7 11:17 uevent
+-r--r--r--    1 root     root          4096 May  7 11:17 vendor

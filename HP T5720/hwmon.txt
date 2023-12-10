@@ -1,0 +1,64 @@
+lrwxrwxrwx    1 root     root             0 Nov 12 22:25 hwmon0 -> ../../devices/pci0000:00/0000:00:02.1/i2c-1/1-002d/hwmon/hwmon0
+-r--r--r--    1 root     root          4096 Nov 12 23:17 cpu0_vid
+lrwxrwxrwx    1 root     root             0 Nov 12 23:17 device -> ../../../1-002d
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in0_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in0_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in0_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in0_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in1_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in1_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in1_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in1_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in2_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in2_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in2_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in2_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in3_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in3_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in3_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in3_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in4_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in4_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in4_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in4_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in5_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in5_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in5_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in5_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in6_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in6_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in6_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in6_min
+-r--r--r--    1 root     root          4096 Nov 12 23:17 in7_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 in7_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in7_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 in7_min
+-r--r--r--    1 root     root          4096 Nov 12 22:25 name
+drwxr-xr-x    2 root     root             0 Nov 12 23:17 power
+lrwxrwxrwx    1 root     root             0 Nov 12 23:17 subsystem -> ../../../../../../../class/hwmon
+-r--r--r--    1 root     root          4096 Nov 12 23:17 temp1_alarm
+-r--r--r--    1 root     root          4096 Nov 12 22:25 temp1_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp1_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp1_min
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp1_offset
+-r--r--r--    1 root     root          4096 Nov 12 23:17 temp2_alarm
+-r--r--r--    1 root     root          4096 Nov 12 23:17 temp2_fault
+-r--r--r--    1 root     root          4096 Nov 12 22:25 temp2_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp2_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp2_min
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp2_offset
+-r--r--r--    1 root     root          4096 Nov 12 23:17 temp3_alarm
+-r--r--r--    1 root     root          4096 Nov 12 23:17 temp3_fault
+-r--r--r--    1 root     root          4096 Nov 12 22:25 temp3_input
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp3_max
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp3_min
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 temp3_offset
+-rw-r--r--    1 root     root          4096 Nov 12 22:25 uevent
+-rw-r--r--    1 root     root          4096 Nov 12 23:17 vrm
+lrwxrwxrwx    1 root     root             0 Nov 12 23:17 driver -> ../../../../../bus/i2c/drivers/smsc47m192
+drwxr-xr-x    3 root     root             0 Nov 12 22:25 hwmon
+-r--r--r--    1 root     root          4096 Nov 12 23:17 modalias
+-r--r--r--    1 root     root          4096 Nov 12 23:17 name
+drwxr-xr-x    2 root     root             0 Nov 12 23:17 power
+lrwxrwxrwx    1 root     root             0 Nov 12 23:17 subsystem -> ../../../../../bus/i2c
+-rw-r--r--    1 root     root          4096 Nov 12 22:25 uevent
