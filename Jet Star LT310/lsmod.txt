@@ -1,102 +1,90 @@
 Module                  Size  Used by    Not tainted
-xt_MASQUERADE          16384  1 
-iptable_nat            16384  1 
-nf_nat                 20480  2 xt_MASQUERADE,iptable_nat
-ctr                    16384  1 
-ccm                    20480  3 
-af_packet              32768  4 
-evdev                  20480  4 
-ext4                  274432  2 
-crc16                  16384  1 ext4
-mbcache                16384  1 ext4
-jbd2                   49152  1 ext4
-processor              20480  1 
-thermal                16384  0 
-atkbd                  20480  0 
-pcspkr                 16384  0 
-button                 16384  0 
-snd_via82xx            20480  0 
-snd_mpu401_uart        16384  1 snd_via82xx
-snd_rawmidi            20480  1 snd_mpu401_uart
+ext4                  303104  1 
+crc16                  12288  1 ext4
+mbcache                12288  1 ext4
+jbd2                   40960  1 ext4
+evdev                  16384  4 
+processor              16384  1 
+thermal                12288  0 
+atkbd                  16384  0 
+vivaldi_fmap           12288  1 atkbd
+pcspkr                 12288  0 
+fan                    12288  0 
+button                 12288  0 
+af_packet              32768  0 
+xt_MASQUERADE          12288  1 
+iptable_nat            12288  1 
+nf_nat                 16384  2 xt_MASQUERADE,iptable_nat
+snd_via82xx            16384  0 
+snd_mpu401_uart        12288  1 snd_via82xx
 snd_ac97_codec         69632  1 snd_via82xx
-saa7134_alsa           20480  0 
-ac97_bus               16384  1 snd_ac97_codec
-snd_pcm                57344  3 snd_via82xx,snd_ac97_codec,saa7134_alsa
-snd_timer              24576  1 snd_pcm
-snd                    28672  7 snd_via82xx,snd_mpu401_uart,snd_rawmidi,snd_ac97_codec,saa7134_alsa,snd_pcm,snd_timer
-soundcore              16384  1 snd
-saa7134_empress        16384  1 
-8139too                20480  0 
-saa6752hs              16384  1 
-huawei_cdc_ncm         16384  0 
-cdc_wdm                20480  1 huawei_cdc_ncm
-cdc_ncm                20480  1 huawei_cdc_ncm
-usbnet                 24576  2 huawei_cdc_ncm,cdc_ncm
-mii                    16384  2 8139too,usbnet
-option                 45056  1 
-usb_wwan               16384  1 option
-usbserial              24576  4 option,usb_wwan
-tuner_simple           20480  1 
-tuner_types            16384  1 tuner_simple
-tda9887                16384  1 
-tuner                  24576  2 
-rt2800usb              24576  0 
-rt2x00usb              16384  1 rt2800usb
-rt2800lib              86016  1 rt2800usb
-crc_ccitt              16384  1 rt2800lib
-rt2x00lib              36864  3 rt2800usb,rt2x00usb,rt2800lib
-mac80211              274432  3 rt2x00usb,rt2800lib,rt2x00lib
-libarc4                16384  1 mac80211
-saa7134               122880  2 saa7134_alsa,saa7134_empress
-cfg80211              180224  2 rt2x00lib,mac80211
-tveeprom               20480  1 saa7134
-videobuf2_dma_sg       16384  2 saa7134_empress,saa7134
-videobuf2_memops       16384  1 videobuf2_dma_sg
-firmware_class         16384  2 rt2x00lib,cfg80211
-videobuf2_v4l2         20480  2 saa7134_empress,saa7134
-videobuf2_common       28672  2 saa7134,videobuf2_v4l2
-videodev              110592  6 saa7134_empress,saa6752hs,tuner,saa7134,videobuf2_v4l2
-sd_mod                 32768  2 
-usb_storage            40960  1 
-i2c_viapro             16384  0 
-uhci_hcd               24576  0 
-pata_via               16384  1 
-libata                122880  1 pata_via
-scsi_mod               69632  3 sd_mod,usb_storage,libata
-8250                   16384  0 
+ac97_bus               12288  1 snd_ac97_codec
+snd_rawmidi            20480  1 snd_mpu401_uart
+snd_seq_device         12288  1 snd_rawmidi
+saa7134_alsa           12288  0 
+snd_pcm                49152  3 snd_via82xx,snd_ac97_codec,saa7134_alsa
+snd_timer              20480  1 snd_pcm
+snd                    32768  8 snd_via82xx,snd_mpu401_uart,snd_ac97_codec,snd_rawmidi,snd_seq_device,saa7134_alsa,snd_pcm,snd_timer
+soundcore              12288  1 snd
+8139too                16384  0 
+mii                    12288  1 8139too
+saa7134_empress        12288  0 
+saa6752hs              12288  1 
+tuner_simple           16384  1 
+tuner_types            12288  1 tuner_simple
+tda9887                12288  1 
+tuner                  20480  2 
+saa7134               110592  2 saa7134_alsa,saa7134_empress
+tveeprom               16384  1 saa7134
+videobuf2_dma_sg       12288  2 saa7134_empress,saa7134
+videobuf2_memops       12288  1 videobuf2_dma_sg
+videobuf2_v4l2         16384  2 saa7134_empress,saa7134
+videobuf2_common       28672  4 saa7134,videobuf2_dma_sg,videobuf2_memops,videobuf2_v4l2
+videodev              131072  5 saa7134_empress,saa6752hs,tuner,saa7134,videobuf2_v4l2
+mc                     20480  5 tuner,saa7134,videobuf2_v4l2,videobuf2_common,videodev
+led_class              12288  1 videodev
+sd_mod                 28672  1 
+i2c_viapro             12288  0 
+uhci_hcd               20480  0 
+pata_via               12288  1 
+libata                110592  1 pata_via
+scsi_mod               65536  2 sd_mod,libata
+scsi_common            12288  3 sd_mod,libata,scsi_mod
+parport_pc             32768  1 
+8250                   12288  0 
 8250_base              24576  1 8250
-serial_core            24576  4 8250,8250_base
-rtc_cmos               16384  1 
-ehci_pci               16384  0 
-ehci_hcd               36864  1 ehci_pci
-usbcore               126976 13 huawei_cdc_ncm,cdc_wdm,cdc_ncm,usbnet,option,usb_wwan,usbserial,rt2800usb,rt2x00usb,usb_storage,uhci_hcd,ehci_pci,ehci_hcd
-usb_common             16384  1 usbcore
-realtek                16384  0 
-libphy                 53248  1 realtek
-crc32c_generic         16384  3 
-vt8231                 16384  0 
-smsc47m192             16384  0 
-lm90                   24576  0 
-lm85                   24576  0 
+serial_base            24576  4 8250,8250_base
+rtc_cmos               12288  1 
+vt8231                 12288  0 
+smsc47m192             12288  0 
+lm90                   20480  0 
+lm85                   20480  0 
 i2c_core               28672 11 saa6752hs,tuner_simple,tda9887,tuner,saa7134,tveeprom,videodev,i2c_viapro,smsc47m192,lm90,lm85
+k10temp                12288  0 
 it87                   28672  0 
-hwmon_vid              16384  3 smsc47m192,lm85,it87
-hwmon                  16384  5 vt8231,smsc47m192,lm90,lm85,it87
-mq_deadline            16384  2 
-softdog                16384  3 
-xt_state               16384  2 
-nf_conntrack           45056  3 xt_MASQUERADE,nf_nat,xt_state
-nf_defrag_ipv4         16384  1 nf_conntrack
-xt_tcpudp              16384  3 
-nf_log_ipv4            16384  5 
-nf_log_common          16384  1 nf_log_ipv4
-xt_LOG                 16384  5 
-xt_limit               16384  6 
-iptable_filter         16384  1 
-ip_tables              20480  2 iptable_nat,iptable_filter
-x_tables               20480  7 xt_MASQUERADE,xt_state,xt_tcpudp,xt_LOG,xt_limit,iptable_filter,ip_tables
-bridge                 69632  0 
-stp                    16384  1 bridge
-llc                    16384  2 bridge,stp
-unix                   28672 47 
-sch_fq_codel           20480  7 
+hwmon_vid              12288  3 smsc47m192,lm85,it87
+hwmon                  12288  5 vt8231,smsc47m192,lm85,k10temp,it87
+ehci_pci               12288  0 
+ehci_hcd               36864  1 ehci_pci
+usbcore               122880  3 uhci_hcd,ehci_pci,ehci_hcd
+usb_common             12288  1 usbcore
+realtek                16384  0 
+libphy                 57344  1 realtek
+crc32c_generic         12288  2 
+nvram                  12288  0 
+lp                     12288  0 
+parport                28672  2 parport_pc,lp
+mq_deadline            12288  1 
+softdog                12288  3 
+xt_limit               12288  1 
+xt_state               12288  2 
+nf_conntrack           36864  3 xt_MASQUERADE,nf_nat,xt_state
+nf_defrag_ipv4         12288  1 nf_conntrack
+xt_tcpudp              12288  2 
+iptable_filter         12288  1 
+ip_tables              16384  2 iptable_nat,iptable_filter
+x_tables               16384  7 xt_MASQUERADE,iptable_nat,xt_limit,xt_state,xt_tcpudp,iptable_filter,ip_tables
+bridge                 81920  0 
+stp                    12288  1 bridge
+llc                    12288  2 bridge,stp
+sch_fq_codel           16384  2 

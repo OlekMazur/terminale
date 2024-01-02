@@ -1,58 +1,122 @@
-/sys/class/sound/card0/device/:
--r--r--r--    1 root     root          4096 Mar 11 10:36 ari_enabled
--rw-r--r--    1 root     root          4096 Mar 11 10:36 broken_parity_status
--r--r--r--    1 root     root          4096 Mar 11 10:36 class
--rw-r--r--    1 root     root          4096 Mar 11 10:36 config
--r--r--r--    1 root     root          4096 Mar 11 10:36 consistent_dma_mask_bits
--r--r--r--    1 root     root          4096 Mar 11 10:36 current_link_speed
--r--r--r--    1 root     root          4096 Mar 11 10:36 current_link_width
--rw-r--r--    1 root     root          4096 Mar 11 10:36 d3cold_allowed
--r--r--r--    1 root     root          4096 Mar 11 10:36 device
--r--r--r--    1 root     root          4096 Mar 11 10:36 dma_mask_bits
-lrwxrwxrwx    1 root     root             0 Mar 11 12:20 driver -> ../../../bus/pci/drivers/snd_hda_intel
--rw-r--r--    1 root     root          4096 Mar 11 10:36 driver_override
--rw-r--r--    1 root     root          4096 Mar 11 10:36 enable
-drwxr-xr-x    4 root     root             0 Mar 11 10:36 hdaudioC0D0
--r--r--r--    1 root     root          4096 Mar 11 10:36 irq
--r--r--r--    1 root     root          4096 Mar 11 10:36 local_cpulist
--r--r--r--    1 root     root          4096 Mar 11 10:36 local_cpus
--r--r--r--    1 root     root          4096 Mar 11 10:36 max_link_speed
--r--r--r--    1 root     root          4096 Mar 11 10:36 max_link_width
--r--r--r--    1 root     root          4096 Mar 11 10:36 modalias
--rw-r--r--    1 root     root          4096 Mar 11 10:36 msi_bus
-drwxr-xr-x    2 root     root             0 Mar 11 10:36 power
--r--r--r--    1 root     root          4096 Mar 11 10:36 power_state
---w--w----    1 root     root          4096 Mar 11 10:36 remove
---w-------    1 root     root          4096 Mar 11 10:36 rescan
---w-------    1 root     root          4096 Mar 11 10:36 reset
--rw-r--r--    1 root     root          4096 Mar 11 10:36 reset_method
--r--r--r--    1 root     root          4096 Mar 11 10:36 resource
--rw-------    1 root     root         16384 Mar 11 10:36 resource0
--r--r--r--    1 root     root          4096 Mar 11 10:36 revision
-drwxr-xr-x    3 root     root             0 Mar 11 10:36 sound
-lrwxrwxrwx    1 root     root             0 Mar 11 10:36 subsystem -> ../../../bus/pci
--r--r--r--    1 root     root          4096 Mar 11 10:36 subsystem_device
--r--r--r--    1 root     root          4096 Mar 11 10:36 subsystem_vendor
--rw-r--r--    1 root     root          4096 Mar 11 10:36 uevent
--r--r--r--    1 root     root          4096 Mar 11 10:36 vendor
 
-/sys/class/sound/card1/device/:
--rw-r--r--    1 root     root          4096 Mar 11 12:20 authorized
--r--r--r--    1 root     root          4096 Mar 11 12:20 bAlternateSetting
--r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceClass
--r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceNumber
--r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceProtocol
--r--r--r--    1 root     root          4096 Mar 11 12:20 bInterfaceSubClass
--r--r--r--    1 root     root          4096 Mar 11 12:20 bNumEndpoints
-lrwxrwxrwx    1 root     root             0 Mar 11 12:20 driver -> ../../../../../../bus/usb/drivers/snd-usb-audio
--r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFirstInterface
--r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFunctionClass
--r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFunctionProtocol
--r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bFunctionSubClass
--r--r--r--    1 root     root          4096 Mar 11 12:20 iad_bInterfaceCount
--r--r--r--    1 root     root          4096 Mar 11 12:20 modalias
-drwxr-xr-x    2 root     root             0 Mar 11 12:20 power
-drwxr-xr-x    3 root     root             0 Mar 11 10:36 sound
-lrwxrwxrwx    1 root     root             0 Mar 11 12:20 subsystem -> ../../../../../../bus/usb
--r--r--r--    1 root     root          4096 Mar 11 12:20 supports_autosuspend
--rw-r--r--    1 root     root          4096 Mar 11 10:36 uevent
+==== 0
+DRIVER=snd_hda_intel
+PCI_CLASS=40300
+PCI_ID=8086:27D8
+PCI_SUBSYS_ID=1462:6621
+PCI_SLOT_NAME=0000:00:1b.0
+MODALIAS=pci:v00008086d000027D8sv00001462sd00006621bc04sc03i00
+
+Simple mixer control 'Master',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 31
+  Mono: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'Headphone',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 31 [100%] [0.00dB] [on]
+  Front Right: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'Front',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 31 [100%] [0.00dB] [on]
+  Front Right: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'Front Mic',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 0 [0%] [-34.50dB] [off]
+  Front Right: Playback 0 [0%] [-34.50dB] [off]
+Simple mixer control 'Front Mic Boost',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 3
+  Front Left: 0 [0%] [0.00dB]
+  Front Right: 0 [0%] [0.00dB]
+Simple mixer control 'Surround',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 31 [100%] [0.00dB] [on]
+  Front Right: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'Center',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 31
+  Mono: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'LFE',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 31
+  Mono: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'Side',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 31 [100%] [0.00dB] [on]
+  Front Right: Playback 31 [100%] [0.00dB] [on]
+Simple mixer control 'Line',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 0 [0%] [-34.50dB] [off]
+  Front Right: Playback 0 [0%] [-34.50dB] [off]
+Simple mixer control 'Line Boost',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 3
+  Front Left: 0 [0%] [0.00dB]
+  Front Right: 0 [0%] [0.00dB]
+Simple mixer control 'Capture',0
+  Capabilities: cvolume cswitch
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 31
+  Front Left: Capture 31 [100%] [30.00dB] [on]
+  Front Right: Capture 31 [100%] [30.00dB] [on]
+Simple mixer control 'Capture',1
+  Capabilities: cvolume cswitch
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 31
+  Front Left: Capture 0 [0%] [-16.50dB] [off]
+  Front Right: Capture 0 [0%] [-16.50dB] [off]
+Simple mixer control 'Auto-Mute Mode',0
+  Capabilities: enum
+  Items: 'Disabled' 'Enabled'
+  Item0: 'Enabled'
+Simple mixer control 'Input Source',0
+  Capabilities: cenum
+  Items: 'Front Mic' 'Rear Mic' 'Line'
+  Item0: 'Front Mic'
+Simple mixer control 'Input Source',1
+  Capabilities: cenum
+  Items: 'Front Mic' 'Rear Mic' 'Line'
+  Item0: 'Front Mic'
+Simple mixer control 'Loopback Mixing',0
+  Capabilities: enum
+  Items: 'Disabled' 'Enabled'
+  Item0: 'Disabled'
+Simple mixer control 'Rear Mic',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 31
+  Mono:
+  Front Left: Playback 0 [0%] [-34.50dB] [off]
+  Front Right: Playback 0 [0%] [-34.50dB] [off]
+Simple mixer control 'Rear Mic Boost',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 3
+  Front Left: 0 [0%] [0.00dB]
+  Front Right: 0 [0%] [0.00dB]

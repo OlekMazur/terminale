@@ -1,60 +1,97 @@
 Module                  Size  Used by    Not tainted
 xt_MASQUERADE          12288  1 
-af_packet              28672  0 
 iptable_nat            12288  1 
 nf_nat                 16384  2 xt_MASQUERADE,iptable_nat
+ctr                    12288  1 
+ccm                    16384  3 
+af_packet              32768  2 
+huawei_cdc_ncm         12288  0 
+cdc_wdm                16384  1 huawei_cdc_ncm
+cdc_ncm                16384  1 huawei_cdc_ncm
+cdc_ether              12288  1 cdc_ncm
+usbnet                 20480  3 huawei_cdc_ncm,cdc_ncm,cdc_ether
+mii                    12288  1 usbnet
+option                 45056  1 
+usb_wwan               12288  1 option
+usbserial              20480  4 option,usb_wwan
+zd1211rw               40960  0 
+mac80211              311296  1 zd1211rw
+libarc4                12288  1 mac80211
+cfg80211              200704  2 zd1211rw,mac80211
+btusb                  28672  0 
+btintel                24576  1 btusb
+bluetooth             237568  5 btusb,btintel
+ecdh_generic           12288  1 bluetooth
+ecc                    24576  1 ecdh_generic
 evdev                  16384  4 
+usb_storage            40960  1 
+snd_usb_audio         159744  0 
+snd_hwdep              12288  1 snd_usb_audio
+snd_usbmidi_lib        20480  1 snd_usb_audio
+snd_rawmidi            20480  1 snd_usbmidi_lib
+snd_seq_device         12288  1 snd_rawmidi
 snd_hda_codec_generic    36864  1 
+ledtrig_audio          12288  1 snd_hda_codec_generic
 processor              16384  1 
 atkbd                  16384  0 
+vivaldi_fmap           12288  1 atkbd
 pcspkr                 12288  0 
 button                 12288  0 
-ext4                  290816  1 
-crc16                  12288  1 ext4
-mbcache                12288  1 ext4
-jbd2                   40960  1 ext4
-r8169                  53248  0 
+r8169                  45056  0 
 mdio_devres            12288  1 r8169
-firmware_class         12288  1 r8169
+firmware_class         12288  5 zd1211rw,cfg80211,btusb,btintel,r8169
 snd_hda_intel          20480  0 
 snd_intel_dspcfg       12288  1 snd_hda_intel
-snd_hda_codec          40960  2 snd_hda_codec_generic,snd_hda_intel
-snd_hda_core           32768  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
-snd_pcm                49152  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_hda_codec          45056  2 snd_hda_codec_generic,snd_hda_intel
+snd_hda_core           36864  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_pcm                49152  4 snd_usb_audio,snd_hda_intel,snd_hda_codec,snd_hda_core
 snd_timer              20480  1 snd_pcm
-snd                    28672  5 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
+snd                    32768 10 snd_usb_audio,snd_hwdep,snd_usbmidi_lib,snd_rawmidi,snd_seq_device,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
 soundcore              12288  1 snd
-sd_mod                 28672  1 
+ext4                  303104  2 
+crc16                  12288  2 bluetooth,ext4
+mbcache                12288  1 ext4
+jbd2                   40960  1 ext4
+uvcvideo               61440  1 
+uvc                    12288  1 uvcvideo
+videobuf2_vmalloc      12288  1 uvcvideo
+videobuf2_memops       12288  1 videobuf2_vmalloc
+videobuf2_v4l2         16384  1 uvcvideo
+videobuf2_common       28672  4 uvcvideo,videobuf2_vmalloc,videobuf2_memops,videobuf2_v4l2
+videodev              131072  3 uvcvideo,videobuf2_v4l2
+mc                     20480  5 snd_usb_audio,uvcvideo,videobuf2_v4l2,videobuf2_common,videodev
+led_class              12288  2 snd_hda_codec_generic,videodev
+sd_mod                 28672  2 
 i2c_viapro             12288  0 
 uhci_hcd               20480  0 
 pata_via               12288  1 
-libata                106496  1 pata_via
-scsi_mod               65536  2 sd_mod,libata
-scsi_common            12288  2 libata,scsi_mod
+libata                110592  1 pata_via
+scsi_mod               65536  3 usb_storage,sd_mod,libata
+scsi_common            12288  4 usb_storage,sd_mod,libata,scsi_mod
 8250                   12288  0 
 8250_base              24576  1 8250
-serial_core            20480  2 8250,8250_base
+serial_base            24576  4 8250,8250_base
 rtc_cmos               12288  1 
 w83627hf               16384  0 
 vt8231                 12288  0 
 smsc47m192             12288  0 
 lm90                   20480  0 
 lm85                   20480  0 
-i2c_core               24576  4 i2c_viapro,smsc47m192,lm90,lm85
+i2c_core               28672  5 videodev,i2c_viapro,smsc47m192,lm90,lm85
 k10temp                12288  0 
 hwmon_vid              12288  3 w83627hf,smsc47m192,lm85
-hwmon                  12288  6 w83627hf,vt8231,smsc47m192,lm90,lm85,k10temp
+hwmon                  12288  5 w83627hf,vt8231,smsc47m192,lm85,k10temp
 ehci_pci               12288  0 
 ehci_hcd               36864  1 ehci_pci
-usbcore               114688  3 uhci_hcd,ehci_pci,ehci_hcd
+usbcore               122880 17 huawei_cdc_ncm,cdc_wdm,cdc_ncm,cdc_ether,usbnet,option,usb_wwan,usbserial,zd1211rw,btusb,usb_storage,snd_usb_audio,snd_usbmidi_lib,uvcvideo,uhci_hcd,ehci_pci,ehci_hcd
 usb_common             12288  1 usbcore
 realtek                16384  1 
-libphy                 49152  3 r8169,mdio_devres,realtek
-crc32c_generic         12288  1 
+libphy                 57344  3 r8169,mdio_devres,realtek
+crc32c_generic         12288  3 
 nvram                  12288  0 
 lp                     12288  0 
 parport                28672  1 lp
-mq_deadline            12288  1 
+mq_deadline            12288  2 
 softdog                12288  3 
 xt_limit               12288  1 
 xt_state               12288  2 
@@ -64,8 +101,7 @@ xt_tcpudp              12288  2
 iptable_filter         12288  1 
 ip_tables              16384  2 iptable_nat,iptable_filter
 x_tables               16384  7 xt_MASQUERADE,iptable_nat,xt_limit,xt_state,xt_tcpudp,iptable_filter,ip_tables
-bridge                 77824  0 
+bridge                 81920  0 
 stp                    12288  1 bridge
 llc                    12288  2 bridge,stp
-unix                   24576 25 
-sch_fq_codel           16384  2 
+sch_fq_codel           16384  3 

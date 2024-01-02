@@ -1,84 +1,77 @@
-lrwxrwxrwx    1 root     root             0 May  7 11:17 hwmon0 -> ../../devices/platform/w83627hf.656/hwmon/hwmon0
-lrwxrwxrwx    1 root     root             0 May  7 11:17 device -> ../../../w83627hf.656
-drwxr-xr-x    2 root     root             0 May  7 13:02 power
-lrwxrwxrwx    1 root     root             0 May  7 13:02 subsystem -> ../../../../../class/hwmon
--rw-r--r--    1 root     root          4096 May  7 11:17 uevent
--r--r--r--    1 root     root          4096 May  7 13:02 alarms
--rw-r--r--    1 root     root          4096 May  7 13:02 beep_enable
--rw-r--r--    1 root     root          4096 May  7 13:02 beep_mask
-lrwxrwxrwx    1 root     root             0 May  7 13:02 driver -> ../../../bus/platform/drivers/w83627hf
--rw-r--r--    1 root     root          4096 May  7 13:02 driver_override
--r--r--r--    1 root     root          4096 May  7 13:02 fan1_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 fan1_beep
--rw-r--r--    1 root     root          4096 May  7 13:02 fan1_div
--r--r--r--    1 root     root          4096 May  7 11:17 fan1_input
--rw-r--r--    1 root     root          4096 May  7 13:02 fan1_min
--r--r--r--    1 root     root          4096 May  7 13:02 fan2_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 fan2_beep
--rw-r--r--    1 root     root          4096 May  7 13:02 fan2_div
--r--r--r--    1 root     root          4096 May  7 11:17 fan2_input
--rw-r--r--    1 root     root          4096 May  7 13:02 fan2_min
-drwxr-xr-x    3 root     root             0 May  7 11:17 hwmon
--r--r--r--    1 root     root          4096 May  7 13:02 in0_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in0_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in0_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in0_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in0_min
--r--r--r--    1 root     root          4096 May  7 13:02 in2_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in2_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in2_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in2_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in2_min
--r--r--r--    1 root     root          4096 May  7 13:02 in3_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in3_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in3_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in3_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in3_min
--r--r--r--    1 root     root          4096 May  7 13:02 in4_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in4_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in4_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in4_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in4_min
--r--r--r--    1 root     root          4096 May  7 13:02 in5_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in5_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in5_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in5_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in5_min
--r--r--r--    1 root     root          4096 May  7 13:02 in6_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in6_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in6_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in6_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in6_min
--r--r--r--    1 root     root          4096 May  7 13:02 in7_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in7_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in7_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in7_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in7_min
--r--r--r--    1 root     root          4096 May  7 13:02 in8_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 in8_beep
--r--r--r--    1 root     root          4096 May  7 11:17 in8_input
--rw-r--r--    1 root     root          4096 May  7 13:02 in8_max
--rw-r--r--    1 root     root          4096 May  7 13:02 in8_min
--r--r--r--    1 root     root          4096 May  7 13:02 modalias
--r--r--r--    1 root     root          4096 May  7 11:17 name
-drwxr-xr-x    2 root     root             0 May  7 13:02 power
--rw-r--r--    1 root     root          4096 May  7 13:02 pwm1
--rw-r--r--    1 root     root          4096 May  7 13:02 pwm1_enable
--rw-r--r--    1 root     root          4096 May  7 13:02 pwm1_freq
--rw-r--r--    1 root     root          4096 May  7 13:02 pwm2
--rw-r--r--    1 root     root          4096 May  7 13:02 pwm2_enable
--rw-r--r--    1 root     root          4096 May  7 13:02 pwm2_freq
-lrwxrwxrwx    1 root     root             0 May  7 13:02 subsystem -> ../../../bus/platform
--r--r--r--    1 root     root          4096 May  7 13:02 temp1_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 temp1_beep
--r--r--r--    1 root     root          4096 May  7 11:17 temp1_input
--rw-r--r--    1 root     root          4096 May  7 13:02 temp1_max
--rw-r--r--    1 root     root          4096 May  7 13:02 temp1_max_hyst
--rw-r--r--    1 root     root          4096 May  7 13:02 temp1_type
--r--r--r--    1 root     root          4096 May  7 13:02 temp2_alarm
--rw-r--r--    1 root     root          4096 May  7 13:02 temp2_beep
--r--r--r--    1 root     root          4096 May  7 11:17 temp2_input
--rw-r--r--    1 root     root          4096 May  7 13:02 temp2_max
--rw-r--r--    1 root     root          4096 May  7 13:02 temp2_max_hyst
--rw-r--r--    1 root     root          4096 May  7 13:02 temp2_type
--rw-r--r--    1 root     root          4096 May  7 11:17 uevent
+==== w83697hf (/sys/class/hwmon/hwmon0/device)
+DRIVER=w83627hf
+MODALIAS=platform:w83627hf
+
+alarms=134911
+beep_enable=1
+beep_mask=0
+driver_override=(null)
+fan1_alarm=1
+fan1_beep=0
+fan1_div=2
+fan1_input=0
+fan1_min=3857
+fan2_alarm=1
+fan2_beep=0
+fan2_div=2
+fan2_input=0
+fan2_min=2824
+in0_alarm=1
+in0_beep=0
+in0_input=672
+in0_max=1008
+in0_min=2736
+in2_alarm=1
+in2_beep=0
+in2_input=448
+in2_max=3824
+in2_min=2032
+in3_alarm=1
+in3_beep=0
+in3_input=3056
+in3_max=3040
+in3_min=224
+in4_alarm=0
+in4_beep=0
+in4_input=3072
+in4_max=4080
+in4_min=2032
+in5_alarm=1
+in5_beep=0
+in5_input=3072
+in5_max=3552
+in5_min=3792
+in6_alarm=1
+in6_beep=0
+in6_input=3088
+in6_max=1968
+in6_min=3952
+in7_alarm=0
+in7_beep=0
+in7_input=3360
+in7_max=4016
+in7_min=2896
+in8_alarm=1
+in8_beep=0
+in8_input=3392
+in8_max=2784
+in8_min=2736
+modalias=platform:w83627hf
+pwm1=255
+pwm1_enable=1
+pwm1_freq=93750
+pwm2=255
+pwm2_enable=1
+pwm2_freq=93750
+temp1_alarm=1
+temp1_beep=0
+temp1_input=117000
+temp1_max=-66000
+temp1_max_hyst=-65000
+temp1_type=4
+temp2_alarm=1
+temp2_beep=0
+temp2_input=112000
+temp2_max=80000
+temp2_max_hyst=75000
+temp2_type=4

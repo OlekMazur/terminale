@@ -114,7 +114,6 @@ pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
 pcpu-alloc: [0] 0 
 Built 1 zonelists, mobility grouping on.  Total pages: 225451
 Kernel command line: panic=30 printk.devkmsg=on ieee80211_regdom=PL  
-Unknown kernel command line parameters "ieee80211_regdom=PL BOOT_IMAGE=/boot/stable.img", will be passed to user space.
 Dentry cache hash table entries: 131072 (order: 7, 524288 bytes, linear)
 Inode-cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
 mem auto-init: stack:off, heap alloc:off, heap free:off
@@ -363,8 +362,6 @@ with arguments:
 with environment:
 HOME=/
 TERM=linux
-ieee80211_regdom=PL
-BOOT_IMAGE=/boot/stable.img
 NET: Registered PF_UNIX/PF_LOCAL protocol family
 softdog: initialized. soft_noboot=0 soft_margin=60 sec soft_panic=0 (nowayout=1)
 softdog:              soft_reboot_cmd=<not set> soft_active_on_boot=0

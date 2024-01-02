@@ -3,8 +3,8 @@ vendor_id	: CentaurHauls
 cpu family	: 6
 model		: 15
 model name	: VIA Nano U3500@1000MHz
-stepping	: 10
-cpu MHz		: 997.511
+stepping	: 8
+cpu MHz		: 997.474
 cache size	: 2048 KB
 fdiv_bug	: no
 f00f_bug	: no
@@ -13,9 +13,10 @@ fpu		: yes
 fpu_exception	: yes
 cpuid level	: 10
 wp		: yes
-flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush acpi mmx fxsr sse sse2 ss tm syscall nx lm constant_tsc arch_perfmon rep_good cpuid pni monitor est tm2 ssse3 cx16 xtpr sse4_1 popcnt rng rng_en ace ace_en ace2 phe phe_en pmm pmm_en lahf_lm ida
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush acpi mmx fxsr sse sse2 ss tm syscall nx lm constant_tsc arch_perfmon rep_good cpuid pni monitor vmx est tm2 ssse3 cx16 xtpr sse4_1 popcnt rng rng_en ace ace_en ace2 phe phe_en pmm pmm_en lahf_lm tpr_shadow vpid vnmi
+vmx flags	: vnmi tsc_offset vtpr
 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit mmio_unknown
-bogomips	: 1995.02
+bogomips	: 1994.94
 clflush size	: 64
 cache_alignment	: 128
 address sizes	: 36 bits physical, 48 bits virtual

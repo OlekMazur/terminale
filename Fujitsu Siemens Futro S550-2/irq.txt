@@ -1,0 +1,23 @@
+           CPU0       
+  0:         19   IO-APIC   0-edge      timer
+  1:          4   IO-APIC   1-edge      i8042
+  8:          1   IO-APIC   8-edge      rtc0
+  9:          0   IO-APIC   9-fasteoi   acpi
+ 12:          5   IO-APIC  12-edge      i8042
+ 14:      21464   IO-APIC  14-edge      pata_atiixp
+ 16:       3688   IO-APIC  16-fasteoi   ohci_hcd:usb2, snd_hda_intel:card0
+ 17:          2   IO-APIC  17-fasteoi   ohci_hcd:usb3, ohci_hcd:usb5
+ 18:    1581340   IO-APIC  18-fasteoi   ohci_hcd:usb4, ohci_hcd:usb6
+ 19:   17619211   IO-APIC  19-fasteoi   ehci_hcd:usb1, eth0
+NMI:        357   Non-maskable interrupts
+LOC:    2216409   Local timer interrupts
+SPU:          0   Spurious interrupts
+PMI:        357   Performance monitoring interrupts
+IWI:          5   IRQ work interrupts
+RTR:          0   APIC ICR read retries
+TRM:          0   Thermal event interrupts
+ERR:          0
+MIS:          0
+PIN:          0   Posted-interrupt notification event
+NPI:          0   Nested posted-interrupt event
+PIW:          0   Posted-interrupt wakeup event

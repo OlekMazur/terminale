@@ -1,110 +1,73 @@
-lrwxrwxrwx    1 root     root             0 Jan  5 23:06 hwmon0 -> ../../devices/pci0000:00/0000:00:18.3/hwmon/hwmon0
-lrwxrwxrwx    1 root     root             0 Jan  5 23:06 hwmon1 -> ../../devices/platform/sch5627/hwmon/hwmon1
-/sys/class/hwmon/hwmon0/:
-lrwxrwxrwx    1 root     root             0 Jan  5 23:06 device -> ../../../0000:00:18.3
--r--r--r--    1 root     root          4096 Jan  5 23:06 name
-drwxr-xr-x    2 root     root             0 Jan  5 23:13 power
-lrwxrwxrwx    1 root     root             0 Jan  5 23:13 subsystem -> ../../../../../class/hwmon
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp1_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp1_crit_hyst
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp1_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp1_max
--rw-r--r--    1 root     root          4096 Jan  5 23:05 uevent
+==== k10temp (/sys/class/hwmon/hwmon0)
+DRIVER=k10temp
+PCI_CLASS=60000
+PCI_ID=1022:1703
+PCI_SUBSYS_ID=0000:0000
+PCI_SLOT_NAME=0000:00:18.3
+MODALIAS=pci:v00001022d00001703sv00000000sd00000000bc06sc00i00
 
-/sys/class/hwmon/hwmon1/:
-lrwxrwxrwx    1 root     root             0 Jan  5 23:06 device -> ../../../sch5627
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan1_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 fan1_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan1_min
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan2_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 fan2_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan2_min
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan3_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 fan3_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan3_min
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan4_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 fan4_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 fan4_min
--r--r--r--    1 root     root          4096 Jan  5 23:06 in0_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 in0_label
--r--r--r--    1 root     root          4096 Jan  5 23:06 in1_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 in1_label
--r--r--r--    1 root     root          4096 Jan  5 23:06 in2_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 in2_label
--r--r--r--    1 root     root          4096 Jan  5 23:06 in3_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 in3_label
--r--r--r--    1 root     root          4096 Jan  5 23:06 in4_input
--r--r--r--    1 root     root          4096 Jan  5 23:06 name
-drwxr-xr-x    2 root     root             0 Jan  5 23:13 power
-lrwxrwxrwx    1 root     root             0 Jan  5 23:13 subsystem -> ../../../../../class/hwmon
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp1_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp1_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp1_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp1_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp2_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp2_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp2_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp2_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp3_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp3_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp3_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp3_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp4_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp4_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp4_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp4_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp5_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp5_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp5_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp5_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp6_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp6_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp6_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp6_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp7_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp7_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp7_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp7_max
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp8_crit
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp8_fault
--r--r--r--    1 root     root          4096 Jan  5 23:06 temp8_input
--r--r--r--    1 root     root          4096 Jan  5 23:13 temp8_max
--rw-r--r--    1 root     root          4096 Jan  5 23:05 uevent
-/sys/class/hwmon/hwmon0/device/:
--r--r--r--    1 root     root          4096 Jan  5 23:05 ari_enabled
--rw-r--r--    1 root     root          4096 Jan  5 23:05 broken_parity_status
--r--r--r--    1 root     root          4096 Jan  5 23:05 class
--rw-r--r--    1 root     root          4096 Jan  5 23:05 config
--r--r--r--    1 root     root          4096 Jan  5 23:05 consistent_dma_mask_bits
--rw-r--r--    1 root     root          4096 Jan  5 23:05 d3cold_allowed
--r--r--r--    1 root     root          4096 Jan  5 23:05 device
--r--r--r--    1 root     root          4096 Jan  5 23:05 dma_mask_bits
-lrwxrwxrwx    1 root     root             0 Jan  5 23:13 driver -> ../../../bus/pci/drivers/k10temp
--rw-r--r--    1 root     root          4096 Jan  5 23:05 driver_override
--rw-r--r--    1 root     root          4096 Jan  5 23:05 enable
-drwxr-xr-x    3 root     root             0 Jan  5 23:05 hwmon
--r--r--r--    1 root     root          4096 Jan  5 23:05 irq
--r--r--r--    1 root     root          4096 Jan  5 23:05 local_cpulist
--r--r--r--    1 root     root          4096 Jan  5 23:05 local_cpus
--r--r--r--    1 root     root          4096 Jan  5 23:05 modalias
--rw-r--r--    1 root     root          4096 Jan  5 23:05 msi_bus
-drwxr-xr-x    2 root     root             0 Jan  5 23:05 power
--r--r--r--    1 root     root          4096 Jan  5 23:05 power_state
---w--w----    1 root     root          4096 Jan  5 23:05 remove
---w-------    1 root     root          4096 Jan  5 23:05 rescan
--r--r--r--    1 root     root          4096 Jan  5 23:05 resource
--r--r--r--    1 root     root          4096 Jan  5 23:05 revision
-lrwxrwxrwx    1 root     root             0 Jan  5 23:05 subsystem -> ../../../bus/pci
--r--r--r--    1 root     root          4096 Jan  5 23:05 subsystem_device
--r--r--r--    1 root     root          4096 Jan  5 23:05 subsystem_vendor
--rw-r--r--    1 root     root          4096 Jan  5 23:05 uevent
--r--r--r--    1 root     root          4096 Jan  5 23:05 vendor
+temp1_crit=100000
+temp1_crit_hyst=97000
+temp1_input=44500
+temp1_max=70000
+==== sch5627 (/sys/class/hwmon/hwmon1)
+DRIVER=sch5627
+MODALIAS=platform:sch5627
 
-/sys/class/hwmon/hwmon1/device/:
-lrwxrwxrwx    1 root     root             0 Jan  5 23:13 driver -> ../../../bus/platform/drivers/sch5627
--rw-r--r--    1 root     root          4096 Jan  5 23:13 driver_override
-drwxr-xr-x    3 root     root             0 Jan  5 23:05 hwmon
--r--r--r--    1 root     root          4096 Jan  5 23:13 modalias
-drwxr-xr-x    2 root     root             0 Jan  5 23:13 power
-lrwxrwxrwx    1 root     root             0 Jan  5 23:13 subsystem -> ../../../bus/platform
--rw-r--r--    1 root     root          4096 Jan  5 23:05 uevent
+fan1_fault=1
+fan1_input=0
+fan1_min=0
+fan2_fault=1
+fan2_input=0
+fan2_min=0
+fan3_fault=1
+fan3_input=0
+fan3_min=0
+fan4_fault=1
+fan4_input=0
+fan4_min=0
+in0_input=3309
+in0_label=VCC
+in1_input=1498
+in1_label=VTT
+in2_input=3279
+in2_label=VBAT
+in3_input=3312
+in3_label=VTR
+in4_input=1129
+pwm1_auto_channels_temp=255
+pwm2_auto_channels_temp=255
+pwm3_auto_channels_temp=255
+pwm4_auto_channels_temp=255
+temp1_crit=100000
+temp1_fault=0
+temp1_input=44500
+temp1_max=60000
+temp2_crit=191000
+temp2_fault=0
+temp2_input=30375
+temp2_max=60000
+temp3_crit=191000
+temp3_fault=0
+temp3_input=30375
+temp3_max=60000
+temp4_crit=191000
+temp4_fault=0
+temp4_input=30375
+temp4_max=60000
+temp5_crit=191000
+temp5_fault=0
+temp5_input=30375
+temp5_max=60000
+temp6_crit=191000
+temp6_fault=0
+temp6_input=30375
+temp6_max=60000
+temp7_crit=191000
+temp7_fault=0
+temp7_input=30375
+temp7_max=60000
+temp8_crit=191000
+temp8_fault=0
+temp8_input=44500
+temp8_max=60000

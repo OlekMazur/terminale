@@ -304,8 +304,6 @@ with arguments:
 with environment:
 HOME=/
 TERM=linux
-ieee80211_regdom=PL
-BOOT_IMAGE=/boot/stable.img
 NET: Registered protocol family 1
 softdog: initialized. soft_noboot=0 soft_margin=60 sec soft_panic=0 (nowayout=1)
 io scheduler mq-deadline registered

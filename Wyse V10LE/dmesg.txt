@@ -66,7 +66,6 @@ pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
 pcpu-alloc: [0] 0 
 Built 1 zonelists, mobility grouping on.  Total pages: 125870
 Kernel command line: panic=30 printk.devkmsg=on  
-Unknown kernel command line parameters "BOOT_IMAGE=kernel.img", will be passed to user space.
 Dentry cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
 Inode-cache hash table entries: 32768 (order: 5, 131072 bytes, linear)
 mem auto-init: stack:off, heap alloc:off, heap free:off
@@ -272,7 +271,6 @@ with arguments:
 with environment:
 HOME=/
 TERM=linux
-BOOT_IMAGE=kernel.img
 NET: Registered PF_UNIX/PF_LOCAL protocol family
 tsc: Refined TSC clocksource calibration: 1200.042 MHz
 clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x114c4366452, max_idle_ns: 440795242977 ns

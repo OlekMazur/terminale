@@ -1,68 +1,65 @@
 Module                  Size  Used by    Not tainted
-ctr                    12288  2 
-ccm                    16384  6 
+af_packet              32768  0 
 xt_MASQUERADE          12288  1 
 iptable_nat            12288  1 
 nf_nat                 16384  2 xt_MASQUERADE,iptable_nat
-af_packet              32768  2 
-ext4                  303104  2 
+input_leds             12288  0 
+evdev                  16384  5 
+processor              16384  1 
+atkbd                  16384  0 
+vivaldi_fmap           12288  1 atkbd
+pcspkr                 12288  0 
+button                 12288  0 
+broadcom               16384  1 
+bcm_phy_lib            12288  1 broadcom
+tg3                   118784  0 
+firmware_class         12288  1 tg3
+ext4                  303104  1 
 crc16                  12288  1 ext4
 mbcache                12288  1 ext4
 jbd2                   40960  1 ext4
-evdev                  16384 11 
-snd_hda_codec_realtek    90112  1 
-snd_hda_codec_generic    36864  1 snd_hda_codec_realtek
+snd_hda_codec_generic    36864  1 
 ledtrig_audio          12288  1 snd_hda_codec_generic
-processor              16384  0 
-atkbd                  16384  0 
-vivaldi_fmap           12288  1 atkbd
-button                 12288  0 
-pcspkr                 12288  0 
+led_class              12288  2 input_leds,snd_hda_codec_generic
+sd_mod                 28672  1 
+i2c_viapro             12288  0 
 snd_hda_intel          20480  0 
 snd_intel_dspcfg       12288  1 snd_hda_intel
-snd_hda_codec          45056  3 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel
-snd_hda_core           36864  4 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
+snd_hda_codec          45056  2 snd_hda_codec_generic,snd_hda_intel
+snd_hda_core           36864  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec
 snd_pcm                49152  3 snd_hda_intel,snd_hda_codec,snd_hda_core
 snd_timer              20480  1 snd_pcm
-snd                    32768  6 snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
+snd                    32768  5 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_pcm,snd_timer
 soundcore              12288  1 snd
-sd_mod                 28672  2 
-r8169                  45056  0 
-mdio_devres            12288  1 r8169
 uhci_hcd               20480  0 
-ata_piix               16384  2 
-libata                110592  1 ata_piix
+pata_via               12288  1 
+libata                110592  1 pata_via
 scsi_mod               65536  2 sd_mod,libata
 scsi_common            12288  3 sd_mod,libata,scsi_mod
-iwl3945                40960  0 
-iwlegacy               36864  1 iwl3945
-led_class              12288  2 snd_hda_codec_generic,iwlegacy
-mac80211              311296  2 iwl3945,iwlegacy
-libarc4                12288  1 mac80211
-cfg80211              200704  3 iwl3945,iwlegacy,mac80211
-firmware_class         12288  3 r8169,iwl3945,cfg80211
-i2c_i801               16384  0 
-i2c_smbus              12288  1 i2c_i801
+parport_pc             32768  1 
+8250                   12288  0 
+8250_base              24576  1 8250
+serial_base            24576  2 8250,8250_base
 rtc_cmos               12288  1 
 vt8231                 12288  0 
+vt1211                 12288  0 
 smsc47m192             12288  0 
 lm90                   20480  0 
 lm85                   20480  0 
-i2c_core               28672  5 i2c_i801,i2c_smbus,smsc47m192,lm90,lm85
+i2c_core               28672  4 i2c_viapro,smsc47m192,lm90,lm85
 k10temp                12288  0 
-hwmon_vid              12288  2 smsc47m192,lm85
-coretemp               12288  0 
-hwmon                  12288  5 vt8231,smsc47m192,lm85,k10temp,coretemp
+hwmon_vid              12288  3 vt1211,smsc47m192,lm85
+hwmon                  12288  6 tg3,vt8231,vt1211,smsc47m192,lm85,k10temp
 ehci_pci               12288  0 
 ehci_hcd               36864  1 ehci_pci
 usbcore               122880  3 uhci_hcd,ehci_pci,ehci_hcd
 usb_common             12288  1 usbcore
-realtek                16384  1 
-libphy                 57344  3 r8169,mdio_devres,realtek
-crc32c_generic         12288  4 
+realtek                16384  0 
+libphy                 57344  4 broadcom,bcm_phy_lib,tg3,realtek
+crc32c_generic         12288  2 
 nvram                  12288  0 
 lp                     12288  0 
-parport                28672  1 lp
+parport                28672  2 parport_pc,lp
 mq_deadline            12288  1 
 softdog                12288  3 
 xt_limit               12288  1 

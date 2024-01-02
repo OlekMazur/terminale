@@ -16,3 +16,4 @@
 00:1f.2 IDE interface: 8086:27C0 ata_piix
 00:1f.3 SMBus: 8086:27DA i801_smbus
 01:00.0 Ethernet controller: 10EC:8168 r8169
+02:00.0 Network controller: 8086:4222 iwl3945

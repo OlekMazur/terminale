@@ -1,115 +1,90 @@
-lrwxrwxrwx    1 root     root             0 Jan 24 13:33 hwmon0 -> ../../devices/platform/coretemp.0/hwmon/hwmon0
-lrwxrwxrwx    1 root     root             0 Jan 24 13:33 hwmon1 -> ../../devices/pci0000:00/0000:00:1f.3/i2c-0/0-002e/hwmon/hwmon1
-/sys/class/hwmon/hwmon0/:
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 device -> ../../../coretemp.0
--r--r--r--    1 root     root          4096 Jan 24 13:33 name
-drwxr-xr-x    2 root     root             0 Jan 24 13:39 power
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 subsystem -> ../../../../../class/hwmon
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp2_crit
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp2_crit_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:33 temp2_input
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp2_label
--rw-r--r--    1 root     root          4096 Jan 24 13:33 uevent
+==== coretemp (/sys/class/hwmon/hwmon0)
+MODALIAS=platform:coretemp
 
-/sys/class/hwmon/hwmon1/:
--r--r--r--    1 root     root          4096 Jan 24 13:39 alarms
--r--r--r--    1 root     root          4096 Jan 24 13:39 cpu0_vid
-lrwxrwxrwx    1 root     root             0 Jan 24 13:33 device -> ../../../0-002e
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan1_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan1_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 fan1_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan2_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan2_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 fan2_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan3_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan3_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 fan3_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan4_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 fan4_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 fan4_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 in0_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 in0_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in0_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in0_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 in1_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 in1_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in1_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in1_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 in2_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 in2_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in2_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in2_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 in3_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 in3_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in3_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in3_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 in4_alarm
--r--r--r--    1 root     root          4096 Jan 24 13:39 in4_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in4_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 in4_min
--r--r--r--    1 root     root          4096 Jan 24 13:33 name
-drwxr-xr-x    2 root     root             0 Jan 24 13:39 power
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm1
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm1_auto_channels
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm1_auto_pwm_min
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm1_auto_pwm_minctl
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm1_enable
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm1_freq
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm2
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm2_auto_channels
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm2_auto_pwm_min
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm2_auto_pwm_minctl
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm2_enable
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm2_freq
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm3
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm3_auto_channels
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm3_auto_pwm_min
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm3_auto_pwm_minctl
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm3_enable
--rw-r--r--    1 root     root          4096 Jan 24 13:39 pwm3_freq
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 subsystem -> ../../../../../../../class/hwmon
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp1_alarm
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp1_auto_temp_crit
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp1_auto_temp_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp1_auto_temp_min
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp1_auto_temp_off
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp1_fault
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp1_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp1_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp1_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp2_alarm
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp2_auto_temp_crit
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp2_auto_temp_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp2_auto_temp_min
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp2_auto_temp_off
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp2_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp2_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp2_min
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp3_alarm
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp3_auto_temp_crit
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp3_auto_temp_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp3_auto_temp_min
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp3_auto_temp_off
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp3_fault
--r--r--r--    1 root     root          4096 Jan 24 13:39 temp3_input
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp3_max
--rw-r--r--    1 root     root          4096 Jan 24 13:39 temp3_min
--rw-r--r--    1 root     root          4096 Jan 24 13:33 uevent
--rw-r--r--    1 root     root          4096 Jan 24 13:39 vrm
-/sys/class/hwmon/hwmon0/device/:
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 driver -> ../../../bus/platform/drivers/coretemp
--rw-r--r--    1 root     root          4096 Jan 24 13:39 driver_override
-drwxr-xr-x    3 root     root             0 Jan 24 13:33 hwmon
--r--r--r--    1 root     root          4096 Jan 24 13:39 modalias
-drwxr-xr-x    2 root     root             0 Jan 24 13:39 power
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 subsystem -> ../../../bus/platform
--rw-r--r--    1 root     root          4096 Jan 24 13:33 uevent
+temp2_crit=100000
+temp2_crit_alarm=0
+temp2_input=0
+temp2_label=Core 0
+==== adt7468 (/sys/class/hwmon/hwmon1)
+DRIVER=lm85
+MODALIAS=i2c:adt7468
 
-/sys/class/hwmon/hwmon1/device/:
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 driver -> ../../../../../bus/i2c/drivers/lm85
-drwxr-xr-x    3 root     root             0 Jan 24 13:33 hwmon
--r--r--r--    1 root     root          4096 Jan 24 13:39 modalias
--r--r--r--    1 root     root          4096 Jan 24 13:33 name
-drwxr-xr-x    2 root     root             0 Jan 24 13:39 power
-lrwxrwxrwx    1 root     root             0 Jan 24 13:39 subsystem -> ../../../../../bus/i2c
--rw-r--r--    1 root     root          4096 Jan 24 13:33 uevent
+alarms=33008
+cpu0_vid=1419
+fan1_alarm=0
+fan1_input=1024
+fan1_min=0
+fan2_alarm=0
+fan2_input=0
+fan2_min=0
+fan3_alarm=0
+fan3_input=0
+fan3_min=0
+fan4_alarm=0
+fan4_input=0
+fan4_min=0
+in0_alarm=0
+in0_input=0
+in0_max=3320
+in0_min=0
+in1_alarm=0
+in1_input=1172
+in1_max=2988
+in1_min=0
+in2_alarm=0
+in2_input=3291
+in2_max=4383
+in2_min=0
+in3_alarm=0
+in3_input=0
+in3_max=6641
+in3_min=0
+in4_alarm=0
+in4_input=0
+in4_max=15938
+in4_min=0
+pwm1=0
+pwm1_auto_channels=1
+pwm1_auto_pwm_min=80
+pwm1_auto_pwm_minctl=0
+pwm1_enable=2
+pwm1_freq=22500
+pwm2=0
+pwm2_auto_channels=0
+pwm2_auto_pwm_min=128
+pwm2_auto_pwm_minctl=0
+pwm2_enable=1
+pwm2_freq=22500
+pwm3=0
+pwm3_auto_channels=0
+pwm3_auto_pwm_min=128
+pwm3_auto_pwm_minctl=0
+pwm3_enable=1
+pwm3_freq=22500
+temp1_alarm=1
+temp1_auto_temp_crit=80000
+temp1_auto_temp_max=52000
+temp1_auto_temp_min=50000
+temp1_auto_temp_off=46000
+temp1_fault=0
+temp1_input=41500
+temp1_max=-1000
+temp1_min=1000
+temp2_alarm=1
+temp2_auto_temp_crit=-92000
+temp2_auto_temp_max=-70000
+temp2_auto_temp_min=-102000
+temp2_auto_temp_off=-106000
+temp2_input=42250
+temp2_max=-1000
+temp2_min=1000
+temp3_alarm=1
+temp3_auto_temp_crit=-92000
+temp3_auto_temp_max=-70000
+temp3_auto_temp_min=-102000
+temp3_auto_temp_off=-106000
+temp3_fault=1
+temp3_input=-127999
+temp3_max=-1000
+temp3_min=1000
+vrm=110

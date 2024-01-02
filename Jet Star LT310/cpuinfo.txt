@@ -14,7 +14,7 @@ fpu_exception	: yes
 cpuid level	: 1
 wp		: yes
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge cmov pat clflush acpi mmx fxsr sse sse2 tm nx cpuid pni est tm2 rng rng_en ace ace_en ace2 ace2_en phe phe_en pmm pmm_en
-bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit mmio_unknown
 bogomips	: 1994.80
 clflush size	: 64
 cache_alignment	: 64
